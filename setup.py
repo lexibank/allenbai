@@ -9,16 +9,16 @@ with open('metadata.json', **({} if PY2 else {'encoding': 'utf-8'})) as fp:
 
 
 setup(
-    name='lexibank_baidial',
+    name='lexibank_allenbai',
     description=metadata['title'],
     license=metadata.get('license', ''),
     url=metadata.get('url', ''),
-    py_modules=['lexibank_baidial'],
+    py_modules=['lexibank_allenbai'],
     include_package_data=True,
     zip_safe=False,
     entry_points={
         'lexibank.dataset': [
-            'baidial=lexibank_baidial:Dataset',
+            'allenbai=lexibank_allenbai:Dataset',
         ]
     },
     install_requires=[
