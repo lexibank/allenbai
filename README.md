@@ -22,5 +22,5 @@ Available online at http://www.sil.org/resources/publications/entry/9121
 - **Cognacy:** 0 cognates in 0 cognate sets
 - **Invalid lexemes:** 0
 - **Tokens:** 20,272
-- **Segments:** 98 (2 LingPy errors, 9 CLPA errors, 258 CLPA modified)
+- **Segments:** 98 (2 LingPy errors, 9 CLPA errors, 4 CLPA modified)
 - **Inventory size (avg):** 54.56

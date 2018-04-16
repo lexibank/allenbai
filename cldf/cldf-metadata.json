@@ -6,7 +6,7 @@
     "dc:identifier": "http://www.sil.org/resources/publications/entry/9121",
     "dc:source": "sources.bib",
     "dc:title": "Bai Dialect Survey",
-    "rdf:ID": "baidial",
+    "rdf:ID": "allenbai",
     "dialect": {
         "commentPrefix": null
     },
@@ -16,6 +16,13 @@
             "properties": {
                 "concepticon_version": "pyconcepticon-1.3-45-g85ba61d",
                 "glottolog_version": "v3.2-40-g4c1fe5d"
+            }
+        },
+        {
+            "dc:title": "environment",
+            "properties": {
+                "concepticon_version": "pyconcepticon-1.3-45-g85ba61d",
+                "glottolog_version": "v3.2-42-g65ce82c"
             }
         }
     ],
