@@ -23,5 +23,9 @@ setup(
     },
     install_requires=[
         'pylexibank',
-    ]
+    ],
+    extras_require={
+        'test': ['pytest', 'goodtables'],
+    }
 )
+

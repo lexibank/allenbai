@@ -1,0 +1,13 @@
+    {
+      "name": "forms"
+      "schema": {
+        "fields": [
+          {
+            "name": "ID",
+            "constraints": {
+              "unique": true
+            }
+          }
+        ]
+      }
+}
