@@ -9,6 +9,7 @@ Available online at http://www.sil.org/resources/publications/entry/9121
 ## Statistics
 
 
+[![Build Status](https://travis-ci.org/lexibank/allenbai.svg?branch=master)](https://travis-ci.org/lexibank/allenbai)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
