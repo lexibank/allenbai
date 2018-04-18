@@ -22,7 +22,7 @@ setup(
         ]
     },
     install_requires=[
-        'pylexibank',
+        'pylexibank>=0.1.2',
     ],
     extras_require={
         'test': ['pytest', 'goodtables'],
