@@ -1,6 +1,6 @@
 {
     "by_language": {
-        "allenbai-eryuan": {
+        "eryuan": {
             "clpa_errors": [
                 "k\u02b2\u02b0"
             ],
@@ -71,7 +71,7 @@
                 "\u2075\u2075": 114
             }
         },
-        "allenbai-heqing": {
+        "heqing": {
             "clpa_errors": [
                 "\u2039",
                 "\u1e7d",
@@ -161,7 +161,7 @@
                 "\u2075\u2075": 145
             }
         },
-        "allenbai-jianchuan": {
+        "jianchuan": {
             "clpa_errors": [
                 "\u2039",
                 "\u203a"
@@ -238,7 +238,7 @@
                 "\u2075\u2075": 180
             }
         },
-        "allenbai-lanping": {
+        "lanping": {
             "clpa_errors": [],
             "general_errors": 0,
             "lingpy_errors": [],
@@ -311,7 +311,7 @@
                 "\u2075\u2075": 190
             }
         },
-        "allenbai-luobenzhuo": {
+        "luobenzhuo": {
             "clpa_errors": [
                 "\u0274\u0325",
                 "\u0274\u0323",
@@ -419,7 +419,7 @@
                 "\u2075\u2075": 264
             }
         },
-        "allenbai-qiliqiao": {
+        "qiliqiao": {
             "clpa_errors": [
                 "\u02b0\u026f"
             ],
@@ -490,7 +490,7 @@
                 "\u2075\u2075": 104
             }
         },
-        "allenbai-xiangyun": {
+        "xiangyun": {
             "clpa_errors": [],
             "general_errors": 0,
             "lingpy_errors": [],
@@ -563,7 +563,7 @@
                 "\u2075\u2075": 108
             }
         },
-        "allenbai-yunlong": {
+        "yunlong": {
             "clpa_errors": [],
             "general_errors": 0,
             "lingpy_errors": [],
@@ -634,7 +634,7 @@
                 "\u2075\u2075": 117
             }
         },
-        "allenbai-zhoucheng": {
+        "zhoucheng": {
             "clpa_errors": [
                 "k\u02b2\u02b0"
             ],
@@ -708,128 +708,128 @@
     "stats": {
         "bad_words": [
             [
-                "allenbai-1277",
-                "allenbai-luobenzhuo",
-                "allenbai-1663",
+                "1277",
+                "luobenzhuo",
+                "1663",
                 "\u0274\u0323\u00b3\u00b3t\u0129\u00b3\u00b3\u02a7\u02b0\u028a\u00b3\u00b9q\u02b0\u00e3\u2074\u00b2",
                 "<s> \u0274\u0323 </s> \u00b3\u00b3 t \u0129 \u00b3\u00b3 \u02a7\u02b0 \u028a \u00b3\u00b9 q\u02b0 \u00e3 \u2074\u00b2"
             ],
             [
-                "allenbai-134",
-                "allenbai-luobenzhuo",
-                "allenbai-2044",
+                "134",
+                "luobenzhuo",
+                "2044",
                 "c\u02b0a\u2075\u2075d\u0290\u0285\u0303\u00b3\u00b3",
                 "c\u02b0 a \u2075\u2075 d\u0290 <s> \u0285\u0303 </s> \u00b3\u00b3"
             ],
             [
-                "allenbai-1426",
-                "allenbai-eryuan",
-                "allenbai-1811",
+                "1426",
+                "eryuan",
+                "1811",
                 "t\u0282\u02b0\u025b\u2075\u2075k\u02b2\u02b0i\u2074\u2074",
                 "t\u0282\u02b0 \u025b \u2075\u2075 <s> k\u02b2\u02b0 </s> i \u2074\u2074"
             ],
             [
-                "allenbai-1498",
-                "allenbai-eryuan",
-                "allenbai-202",
+                "1498",
+                "eryuan",
+                "202",
                 "k\u02b2\u02b0i\u2074\u2074\u0263\u026f\u2074\u00b2",
                 "<s> k\u02b2\u02b0 </s> i \u2074\u2074 \u0263 \u026f \u2074\u00b2"
             ],
             [
-                "allenbai-1505",
-                "allenbai-zhoucheng",
-                "allenbai-202",
+                "1505",
+                "zhoucheng",
+                "202",
                 "ts\u02b0\u025b\u2075\u2075k\u02b2\u02b0i\u2074\u2074",
                 "ts\u02b0 \u025b \u2075\u2075 <s> k\u02b2\u02b0 </s> i \u2074\u2074"
             ],
             [
-                "allenbai-1894",
-                "allenbai-luobenzhuo",
-                "allenbai-1585",
+                "1894",
+                "luobenzhuo",
+                "1585",
                 "\u0274\u0323\u00b3\u00b3ti\u00b3\u00b9",
                 "<s> \u0274\u0323 </s> \u00b3\u00b3 t i \u00b3\u00b9"
             ],
             [
-                "allenbai-2000",
-                "allenbai-eryuan",
-                "allenbai-43",
+                "2000",
+                "eryuan",
+                "43",
                 "k\u02b2\u02b0e\u2075\u2075",
                 "<s> k\u02b2\u02b0 </s> e \u2075\u2075"
             ],
             [
-                "allenbai-2106",
-                "allenbai-luobenzhuo",
-                "allenbai-991",
+                "2106",
+                "luobenzhuo",
+                "991",
                 "\u0274\u0323\u00b3\u00b9",
                 "<s> \u0274\u0323 </s> \u00b3\u00b9"
             ],
             [
-                "allenbai-2839",
-                "allenbai-heqing",
-                "allenbai-1573",
+                "2839",
+                "heqing",
+                "1573",
                 "ts\u02b0\u027f\u0303\u2075\u2075",
                 "ts\u02b0 <s> \u027f\u0303 </s> \u2075\u2075"
             ],
             [
-                "allenbai-3216",
-                "allenbai-luobenzhuo",
-                "allenbai-1035",
+                "3216",
+                "luobenzhuo",
+                "1035",
                 "\u0274\u0323\u00b3\u00b3",
                 "<s> \u0274\u0323 </s> \u00b3\u00b3"
             ],
             [
-                "allenbai-3346",
-                "allenbai-eryuan",
-                "allenbai-1339",
+                "3346",
+                "eryuan",
+                "1339",
                 "k\u02b2\u02b0\u025b\u2075\u2075t\u026f\u00b2\u00b9",
                 "<s> k\u02b2\u02b0 </s> \u025b \u2075\u2075 t \u026f \u00b2\u00b9"
             ],
             [
-                "allenbai-3514",
-                "allenbai-qiliqiao",
-                "allenbai-2077",
+                "3514",
+                "qiliqiao",
+                "2077",
                 "\u02b0\u026f\u2075\u2075t\u0255\u026f\u00b3\u00b9",
                 "<s> \u02b0\u026f </s> \u2075\u2075 t\u0255 \u026f \u00b3\u00b9"
             ],
             [
-                "allenbai-3684",
-                "allenbai-heqing",
-                "allenbai-516",
+                "3684",
+                "heqing",
+                "516",
                 "t\u026f\u00b2\u00b9\u2039\u203aji\u00b2\u00b9",
                 "t \u026f \u00b2\u00b9 <s> \u2039 </s> <s> \u203a </s> j i \u00b2\u00b9"
             ],
             [
-                "allenbai-3989",
-                "allenbai-jianchuan",
-                "allenbai-728",
+                "3989",
+                "jianchuan",
+                "728",
                 "\u0255\u0129\u2075\u2075\u2039\u203at\u026f\u00b2\u00b9",
                 "\u0255 \u0129 \u2075\u2075 <s> \u2039 </s> <s> \u203a </s> t \u026f \u00b2\u00b9"
             ],
             [
-                "allenbai-4249",
-                "allenbai-luobenzhuo",
-                "allenbai-227",
+                "4249",
+                "luobenzhuo",
+                "227",
                 "\u0274\u0323\u00b3\u2075",
                 "<s> \u0274\u0323 </s> \u00b3\u2075"
             ],
             [
-                "allenbai-4276",
-                "allenbai-luobenzhuo",
-                "allenbai-665",
+                "4276",
+                "luobenzhuo",
+                "665",
                 "t\u0255\u025b\u0303\u2075\u2075\u0274\u0325\u0274\u0323\u2075\u2075",
                 "t\u0255 \u025b\u0303 \u2075\u2075 <s> \u0274\u0325 </s> <s> \u0274\u0323 </s> \u2075\u2075"
             ],
             [
-                "allenbai-4433",
-                "allenbai-heqing",
-                "allenbai-1220",
+                "4433",
+                "heqing",
+                "1220",
                 "\u1e7d\u00b3\u00b3tu\u0254\u2075\u2075lu\u0254\u2075\u2075",
                 "<s> \u1e7d </s> \u00b3\u00b3 t u \u0254 \u2075\u2075 l u \u0254 \u2075\u2075"
             ],
             [
-                "allenbai-971",
-                "allenbai-luobenzhuo",
-                "allenbai-768",
+                "971",
+                "luobenzhuo",
+                "768",
                 "\u0272i\u2075\u2075\u0274\u0325\u0274\u0323\u00b3\u00b3b\u025b\u0303\u00b3\u00b3",
                 "\u0272 i \u2075\u2075 <s> \u0274\u0325 </s> <s> \u0274\u0323 </s> \u00b3\u00b3 b \u025b\u0303 \u00b3\u00b3"
             ]

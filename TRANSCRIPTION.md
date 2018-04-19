@@ -120,25 +120,25 @@
 ## Words with invalid segments (up to 100 only)
 
 | ID | LANGUAGE | CONCEPT | FORM | SEGMENTS |
-|:--------------|:--------------------|:--------------|:------------------|:---------------------------------------|
-| allenbai-1277 | allenbai-luobenzhuo | allenbai-1663 | ɴ̣³³tĩ³³ʧʰʊ³¹qʰã⁴² | <s> ɴ̣ </s> ³³ t ĩ ³³ ʧʰ ʊ ³¹ qʰ ã ⁴² |
-| allenbai-134 | allenbai-luobenzhuo | allenbai-2044 | cʰa⁵⁵dʐʅ̃³³ | cʰ a ⁵⁵ dʐ <s> ʅ̃ </s> ³³ |
-| allenbai-1426 | allenbai-eryuan | allenbai-1811 | tʂʰɛ⁵⁵kʲʰi⁴⁴ | tʂʰ ɛ ⁵⁵ <s> kʲʰ </s> i ⁴⁴ |
-| allenbai-1498 | allenbai-eryuan | allenbai-202 | kʲʰi⁴⁴ɣɯ⁴² | <s> kʲʰ </s> i ⁴⁴ ɣ ɯ ⁴² |
-| allenbai-1505 | allenbai-zhoucheng | allenbai-202 | tsʰɛ⁵⁵kʲʰi⁴⁴ | tsʰ ɛ ⁵⁵ <s> kʲʰ </s> i ⁴⁴ |
-| allenbai-1894 | allenbai-luobenzhuo | allenbai-1585 | ɴ̣³³ti³¹ | <s> ɴ̣ </s> ³³ t i ³¹ |
-| allenbai-2000 | allenbai-eryuan | allenbai-43 | kʲʰe⁵⁵ | <s> kʲʰ </s> e ⁵⁵ |
-| allenbai-2106 | allenbai-luobenzhuo | allenbai-991 | ɴ̣³¹ | <s> ɴ̣ </s> ³¹ |
-| allenbai-2839 | allenbai-heqing | allenbai-1573 | tsʰɿ̃⁵⁵ | tsʰ <s> ɿ̃ </s> ⁵⁵ |
-| allenbai-3216 | allenbai-luobenzhuo | allenbai-1035 | ɴ̣³³ | <s> ɴ̣ </s> ³³ |
-| allenbai-3346 | allenbai-eryuan | allenbai-1339 | kʲʰɛ⁵⁵tɯ²¹ | <s> kʲʰ </s> ɛ ⁵⁵ t ɯ ²¹ |
-| allenbai-3514 | allenbai-qiliqiao | allenbai-2077 | ʰɯ⁵⁵tɕɯ³¹ | <s> ʰɯ </s> ⁵⁵ tɕ ɯ ³¹ |
-| allenbai-3684 | allenbai-heqing | allenbai-516 | tɯ²¹‹›ji²¹ | t ɯ ²¹ <s> ‹ </s> <s> › </s> j i ²¹ |
-| allenbai-3989 | allenbai-jianchuan | allenbai-728 | ɕĩ⁵⁵‹›tɯ²¹ | ɕ ĩ ⁵⁵ <s> ‹ </s> <s> › </s> t ɯ ²¹ |
-| allenbai-4249 | allenbai-luobenzhuo | allenbai-227 | ɴ̣³⁵ | <s> ɴ̣ </s> ³⁵ |
-| allenbai-4276 | allenbai-luobenzhuo | allenbai-665 | tɕɛ̃⁵⁵ɴ̥ɴ̣⁵⁵ | tɕ ɛ̃ ⁵⁵ <s> ɴ̥ </s> <s> ɴ̣ </s> ⁵⁵ |
-| allenbai-4433 | allenbai-heqing | allenbai-1220 | ṽ³³tuɔ⁵⁵luɔ⁵⁵ | <s> ṽ </s> ³³ t u ɔ ⁵⁵ l u ɔ ⁵⁵ |
-| allenbai-971 | allenbai-luobenzhuo | allenbai-768 | ɲi⁵⁵ɴ̥ɴ̣³³bɛ̃³³ | ɲ i ⁵⁵ <s> ɴ̥ </s> <s> ɴ̣ </s> ³³ b ɛ̃ ³³ |
+|-----:|:-----------|----------:|:------------------|:---------------------------------------|
+| 1277 | luobenzhuo | 1663 | ɴ̣³³tĩ³³ʧʰʊ³¹qʰã⁴² | <s> ɴ̣ </s> ³³ t ĩ ³³ ʧʰ ʊ ³¹ qʰ ã ⁴² |
+| 134 | luobenzhuo | 2044 | cʰa⁵⁵dʐʅ̃³³ | cʰ a ⁵⁵ dʐ <s> ʅ̃ </s> ³³ |
+| 1426 | eryuan | 1811 | tʂʰɛ⁵⁵kʲʰi⁴⁴ | tʂʰ ɛ ⁵⁵ <s> kʲʰ </s> i ⁴⁴ |
+| 1498 | eryuan | 202 | kʲʰi⁴⁴ɣɯ⁴² | <s> kʲʰ </s> i ⁴⁴ ɣ ɯ ⁴² |
+| 1505 | zhoucheng | 202 | tsʰɛ⁵⁵kʲʰi⁴⁴ | tsʰ ɛ ⁵⁵ <s> kʲʰ </s> i ⁴⁴ |
+| 1894 | luobenzhuo | 1585 | ɴ̣³³ti³¹ | <s> ɴ̣ </s> ³³ t i ³¹ |
+| 2000 | eryuan | 43 | kʲʰe⁵⁵ | <s> kʲʰ </s> e ⁵⁵ |
+| 2106 | luobenzhuo | 991 | ɴ̣³¹ | <s> ɴ̣ </s> ³¹ |
+| 2839 | heqing | 1573 | tsʰɿ̃⁵⁵ | tsʰ <s> ɿ̃ </s> ⁵⁵ |
+| 3216 | luobenzhuo | 1035 | ɴ̣³³ | <s> ɴ̣ </s> ³³ |
+| 3346 | eryuan | 1339 | kʲʰɛ⁵⁵tɯ²¹ | <s> kʲʰ </s> ɛ ⁵⁵ t ɯ ²¹ |
+| 3514 | qiliqiao | 2077 | ʰɯ⁵⁵tɕɯ³¹ | <s> ʰɯ </s> ⁵⁵ tɕ ɯ ³¹ |
+| 3684 | heqing | 516 | tɯ²¹‹›ji²¹ | t ɯ ²¹ <s> ‹ </s> <s> › </s> j i ²¹ |
+| 3989 | jianchuan | 728 | ɕĩ⁵⁵‹›tɯ²¹ | ɕ ĩ ⁵⁵ <s> ‹ </s> <s> › </s> t ɯ ²¹ |
+| 4249 | luobenzhuo | 227 | ɴ̣³⁵ | <s> ɴ̣ </s> ³⁵ |
+| 4276 | luobenzhuo | 665 | tɕɛ̃⁵⁵ɴ̥ɴ̣⁵⁵ | tɕ ɛ̃ ⁵⁵ <s> ɴ̥ </s> <s> ɴ̣ </s> ⁵⁵ |
+| 4433 | heqing | 1220 | ṽ³³tuɔ⁵⁵luɔ⁵⁵ | <s> ṽ </s> ³³ t u ɔ ⁵⁵ l u ɔ ⁵⁵ |
+| 971 | luobenzhuo | 768 | ɲi⁵⁵ɴ̥ɴ̣³³bɛ̃³³ | ɲ i ⁵⁵ <s> ɴ̥ </s> <s> ɴ̣ </s> ³³ b ɛ̃ ³³ |
 
 (18 rows)
 

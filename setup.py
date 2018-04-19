@@ -22,10 +22,10 @@ setup(
         ]
     },
     install_requires=[
-        'pylexibank>=0.1.2',
+        'pylexibank>=0.3.0',
     ],
     extras_require={
-        'test': ['pytest', 'goodtables'],
+        'test': ['pytest-cldf'],
     }
 )
 
