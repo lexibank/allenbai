@@ -2,13 +2,13 @@
 from __future__ import unicode_literals, print_function
 
 import lingpy
+from lingpy.sequence.sound_classes import clean_string
 import attr
 
 from clldutils.path import Path
 from pylexibank.dataset import Metadata, Concept
 from pylexibank.dataset import Dataset as BaseDataset
-from pylexibank.lingpy_util import getEvoBibAsBibtex, clean_string
-from pylexibank.util import pb
+from pylexibank.util import pb, getEvoBibAsBibtex
 
 
 @attr.s

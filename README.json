@@ -503,15 +503,15 @@
         "991": 9
     },
     "languages": {
-        "eryuan": 503,
-        "heqing": 502,
-        "jianchuan": 513,
-        "lanping": 512,
-        "luobenzhuo": 500,
-        "qiliqiao": 507,
-        "xiangyun": 505,
-        "yunlong": 503,
-        "zhoucheng": 501
+        "Eryuan": 503,
+        "Heqing": 502,
+        "Jianchuan": 513,
+        "Lanping": 512,
+        "Luobenzhuo": 500,
+        "Qiliqiao": 507,
+        "Xiangyun": 505,
+        "Yunlong": 503,
+        "Zhoucheng": 501
     },
     "lexemes": 4546,
     "sources": {
