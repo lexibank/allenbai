@@ -6,6 +6,7 @@ from lingpy.sequence.sound_classes import clean_string
 import attr
 
 from clldutils.path import Path
+from clldutils.misc import lazyproperty
 from pylexibank.dataset import Metadata, Concept
 from pylexibank.dataset import Dataset as BaseDataset
 from pylexibank.util import pb, getEvoBibAsBibtex
@@ -25,7 +26,8 @@ class Dataset(BaseDataset):
         if form not in '---':
             return form
 
-    def get_tokenizer(self):
+    @lazyproperty
+    def tokenizer(self):
         return lambda row, string: clean_string(string)[0].split()
 
     def cmd_download(self, **kw):

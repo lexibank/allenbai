@@ -3,127 +3,135 @@
 
 ## Segments
 
-| Segment | Occurrence | LingPy | CLPA |
-||
+| Segment | Occurrence | BIPA | CLTS SoundClass |
+|:----------|-------------:|:-------|:------------------|
+| ⁵⁵ | 1321 | ✓ | ✓ |
+| ³³ | 1209 | ✓ | ✓ |
+| ⁴⁴ | 1165 | ✓ | ✓ |
+| a | 997 | ✓ | ✓ |
+| u | 876 | ✓ | ✓ |
+| ³¹ | 863 | ✓ | ✓ |
+| i | 842 | ✓ | ✓ |
+| ²¹ | 798 | ✓ | ✓ |
+| ɯ | 758 | ✓ | ✓ |
+| ⁴² | 649 | ✓ | ✓ |
+| ts | 629 | ✓ | ✓ |
+| ɛ | 615 | ✓ | ✓ |
+| k | 565 | ✓ | ✓ |
+| ɔ | 559 | ✓ | ✓ |
+| t | 492 | ✓ | ✓ |
+| o | 482 | ✓ | ✓ |
+| ³⁵ | 482 | ✓ | ✓ |
+| p | 442 | ✓ | ✓ |
+| e | 437 | ✓ | ✓ |
+| s | 423 | ✓ | ✓ |
+| m | 386 | ✓ | ✓ |
+| ɿ | 360 | ✓ | ✓ |
+| ɤ | 345 | ✓ | ✓ |
+| j | 290 | ✓ | ✓ |
+| tɕ | 282 | ✓ | ✓ |
+| ɕ | 238 | ✓ | ✓ |
+| x | 231 | ✓ | ✓ |
+| ã | 209 | ✓ | ✓ |
+| kʰ | 204 | ✓ | ✓ |
+| tsʰ | 202 | ✓ | ✓ |
+| n | 171 | ✓ | ✓ |
+| l | 168 | ✓ | ✓ |
+| tɕʰ | 158 | ✓ | ✓ |
+| w | 158 | ✓ | ✓ |
+| ĩ | 156 | ✓ | ✓ |
+| ɛ̃ | 155 | ✓ | ✓ |
+| pʰ | 141 | ✓ | ✓ |
+| ɲ | 125 | ✓ | ✓ |
+| ŋ | 123 | ✓ | ✓ |
+| ẽ | 119 | ✓ | ✓ |
+| tʰ | 94 | ✓ | ✓ |
+| ɯ̃ | 84 | ✓ | ✓ |
+| f | 83 | ✓ | ✓ |
+| v | 80 | ✓ | ✓ |
+| z | 75 | ✓ | ✓ |
+| õ | 75 | ✓ | ✓ |
+| y | 72 | ✓ | ✓ |
+| ũ | 72 | ✓ | ✓ |
+| ɣ | 70 | ✓ | ✓ |
+| ɔ̃ | 67 | ✓ | ✓ |
+| kʲ | 63 | ✓ | ✓ |
+| ³² | 58 | ✓ | ✓ |
+| q | 47 | ✓ | ✓ |
+| d | 41 | ✓ | ✓ |
+| tʂ | 41 | ✓ | ✓ |
+| ɤ̃ | 33 | ✓ | ✓ |
+| ʂ | 33 | ✓ | ✓ |
+| sʰ | 27 | ✓ | ✓ |
+| ʔ | 25 | ✓ | ✓ |
+| b | 23 | ✓ | ✓ |
+| æ | 23 | ✓ | ✓ |
+| ʐ | 22 | ✓ | ✓ |
+| qʰ | 20 | ✓ | ✓ |
+| ʈ | 18 | ✓ | ✓ |
+| ʃ | 17 | ✓ | ✓ |
+| æ̃ | 14 | ✓ | ✓ |
+| ʧʰ | 13 | ✓ | ✓ |
+| xʰ | 12 | ✓ | ✓ |
+| ʊ | 12 | ✓ | ✓ |
+| tʂʰ | 10 | ✓ | ✓ |
+| ʅ | 10 | ✓ | ✓ |
+| c | 9 | ✓ | ✓ |
+| ɕʰ | 9 | ✓ | ✓ |
+| ỹ | 9 | ✓ | ✓ |
+| ʥ | 8 | ✓ | ✓ |
+| ɴ | 7 | ✓ | ✓ |
+| ɴ̣ | 7 | ? | ? |
+| ʈʰ | 7 | ✓ | ✓ |
+| ʑ | 6 | ✓ | ✓ |
+| kʲʰ | 5 | ✓ | ✓ |
+| ɖ | 5 | ✓ | ✓ |
+| ʧ | 5 | ✓ | ✓ |
+| χ | 5 | ✓ | ✓ |
+| dʐ | 4 | ✓ | ✓ |
+| g | 4 | ✓ | ✓ |
+| cʰ | 3 | ✓ | ✓ |
+| ɑ | 3 | ✓ | ✓ |
+| ʁ | 3 | ✓ | ✓ |
+| ɥ | 2 | ✓ | ✓ |
+| ɴ̥ | 2 | ✓ | ✓ |
+| ‹ | 2 | ? | ? |
+| › | 2 | ? | ? |
+| ɿ̃ | 1 | ✓ | ✓ |
+| ʅ̃ | 1 | ✓ | ✓ |
+| ʊ̃ | 1 | ✓ | ✓ |
+| ʰɯ | 1 | ? | ? |
+| ṃ | 1 | ✓ | ✓ |
+| ṽ | 1 | ✓ | ✓ |
 
-(0 rows)
+(98 rows)
 
 
 
 ## Unsegmentable lexemes (up to 100 only)
 
 | ID | LANGUAGE | CONCEPT | FORM |
-|-----:|:-----------|----------:|:------------------|
-| 1 | Jianchuan | 1732 | xẽ⁵⁵ |
-| 10 | Jianchuan | 609 | sue⁴⁴wa⁴²tsɿ³³ |
-| 100 | Jianchuan | 2043 | ta²¹ |
-| 11 | Eryuan | 609 | tʂɔ⁴²pɔ⁴²tsɿ³³ |
-| 12 | Heqing | 609 | sʰue⁴⁴wa⁴²tsɿ³³ |
-| 13 | Lanping | 609 | po³³tɛ⁴⁴ |
-| 14 | Qiliqiao | 609 | ɕy⁴⁴kʰuɔ³³tsɿ³³ |
-| 15 | Yunlong | 609 | tso⁴²po⁴²tsɿ³³ |
-| 16 | Xiangyun | 609 | sua⁴⁴kʰuɔ³³tsɿ³³ |
-| 17 | Luobenzhuo | 609 | ɕõ³³qʰao³¹ |
-| 18 | Zhoucheng | 609 | sue⁴⁴kʰuɔ³³tsɿ³³ |
-| 19 | Jianchuan | 832 | tɯ²¹ |
-| 2 | Eryuan | 1732 | xe⁵⁵ |
-| 20 | Eryuan | 832 | tɯ³¹ |
-| 21 | Heqing | 832 | tɯ³¹ |
-| 22 | Lanping | 832 | tiɯ²¹ |
-| 23 | Qiliqiao | 832 | tɯ³¹ |
-| 24 | Yunlong | 832 | dɯ³¹ |
-| 25 | Xiangyun | 832 | tou³¹ |
-| 26 | Luobenzhuo | 832 | dɯ⁴² |
-| 27 | Zhoucheng | 832 | tɯ³¹ |
-| 28 | Jianchuan | 2025 | tɯ²¹sɿ³¹tsɿ³³ |
-| 29 | Eryuan | 2025 | tɯ³¹lɯ³¹tsʰɯ³¹ |
-| 3 | Heqing | 1732 | xʰẽ⁵⁵ |
-| 30 | Heqing | 2025 | tɯ³¹tsʰɯ³²tsɿ³³ |
-| 31 | Lanping | 2025 | tiɯ²¹liɯ²¹tsʰɯ²¹ |
-| 32 | Qiliqiao | 2025 | tɯ³¹tsʰɯ³¹ |
-| 33 | Yunlong | 2025 | dɯ³¹lɯ³¹tsʰɯ³¹ |
-| 34 | Xiangyun | 2025 | tou³¹tsʰou³¹tsɿ³³ |
-| 35 | Luobenzhuo | 2025 | dɯ⁴²tsʰɿ³³ |
-| 36 | Zhoucheng | 2025 | tɯ³¹tsʰɯ³¹ |
-| 37 | Jianchuan | 2027 | sɛ̃⁵⁵tsɿ³³tɯ²¹ |
-| 38 | Eryuan | 2027 | pɛ⁴⁴xue³⁵tɯ³¹ |
-| 39 | Heqing | 2027 | pɛ⁴²tɯ³¹tsɿ³³ |
-| 4 | Lanping | 1732 | xẽ⁵⁵kʰao³¹ |
-| 40 | Lanping | 2027 | pa⁴⁴tiɯ²¹ |
-| 41 | Qiliqiao | 2027 | sɿ³⁵tsɿ³³tɯ³¹ |
-| 42 | Yunlong | 2027 | pɛ⁴⁴dɯ³¹tsɿ³³ |
-| 43 | Xiangyun | 2027 | pɛ⁴²tou³¹ |
-| 44 | Luobenzhuo | 2027 | ɕy³³dɯ⁴² |
-| 45 | Zhoucheng | 2027 | sɿ⁵⁵sɿ⁴⁴tɯ³¹ |
-| 46 | Jianchuan | 864 | tɕi⁵⁵kua⁵⁵ |
-| 47 | Eryuan | 864 | e⁵⁵kua⁵⁵ |
-| 48 | Heqing | 864 | na⁵⁵kua⁵⁵ |
-| 49 | Lanping | 864 | tɕĩ⁵⁵kũã⁵⁵ |
-| 5 | Qiliqiao | 1732 | xe⁵⁵ |
-| 50 | Qiliqiao | 864 | na⁴²kua³³ |
-| 51 | Yunlong | 864 | tɕo⁵⁵kua⁵⁵ |
-| 52 | Xiangyun | 864 | tɕi⁵⁵kua⁵⁵ |
-| 53 | Luobenzhuo | 864 | ɤ⁴⁴ |
-| 54 | Zhoucheng | 864 | na³⁵kua³⁵ |
-| 55 | Jianchuan | 496 | pʰo⁴⁴ |
-| 56 | Eryuan | 496 | pʰɔ⁴⁴ |
-| 57 | Heqing | 496 | pʰɔu⁴⁴ |
-| 58 | Lanping | 496 | pʰao³³ |
-| 59 | Qiliqiao | 496 | pʰɔ⁴⁴ |
-| 6 | Yunlong | 1732 | xe⁵⁵ |
-| 60 | Yunlong | 496 | pʰu⁴⁴ |
-| 61 | Xiangyun | 496 | pʰɔ⁴⁴ |
-| 62 | Luobenzhuo | 496 | pʰao⁵⁵ |
-| 63 | Zhoucheng | 496 | pʰo⁴⁴ |
-| 64 | Jianchuan | 924 | tsʰɯ³¹ |
-| 65 | Eryuan | 924 | tsʰɯ³¹ |
-| 66 | Heqing | 924 | tsʰɯ³¹ |
-| 67 | Lanping | 924 | tsʰɯ³¹ |
-| 68 | Qiliqiao | 924 | tsʰɯ³¹ |
-| 69 | Yunlong | 924 | tsʰɯ³¹ |
-| 7 | Xiangyun | 1732 | xẽ⁵⁵ |
-| 70 | Xiangyun | 924 | tsʰou³¹ |
-| 71 | Luobenzhuo | 924 | tsʰɿ⁵⁵ |
-| 72 | Zhoucheng | 924 | tsʰɯ³¹ |
-| 73 | Jianchuan | 919 | la³⁵tsɿ³³ |
-| 74 | Eryuan | 919 | na³⁵tsɿ³¹ |
-| 75 | Heqing | 919 | la³⁵tsɿ³³ |
-| 76 | Lanping | 919 | la⁴⁴tsɯ³³ |
-| 77 | Qiliqiao | 919 | la³⁵tsɿ³¹ |
-| 78 | Yunlong | 919 | la³⁵tsɿ³¹ |
-| 79 | Xiangyun | 919 | la³⁵tsɿ³¹ |
-| 8 | Luobenzhuo | 1732 | xẽ⁵⁵ |
-| 80 | Luobenzhuo | 919 | lao³¹zi³¹ |
-| 81 | Zhoucheng | 919 | la³⁵tsɿ³³ |
-| 82 | Jianchuan | 1385 | su⁵⁵ |
-| 83 | Eryuan | 1385 | su³⁵ |
-| 84 | Heqing | 1385 | su⁵⁵ |
-| 85 | Lanping | 1385 | su⁵⁵ |
-| 86 | Qiliqiao | 1385 | ji³¹tɕo³⁵ |
-| 87 | Yunlong | 1385 | su³⁵ |
-| 88 | Xiangyun | 1385 | su³⁵ |
-| 89 | Luobenzhuo | 1385 | ɕo⁵⁵nɛ³¹ |
-| 9 | Zhoucheng | 1732 | xe⁵⁵ |
-| 90 | Zhoucheng | 1385 | su³⁵ |
-| 91 | Jianchuan | 2042 | ɣou²¹tou²¹ |
-| 92 | Eryuan | 2042 | ɔ²¹tɔ²¹ |
-| 93 | Heqing | 2042 | ɣɔu²¹tɔ²¹ |
-| 94 | Lanping | 2042 | wɔ³³tuɔ³¹ |
-| 95 | Qiliqiao | 2042 | ɔ²¹tɔ²¹ |
-| 96 | Yunlong | 2042 | ʁɔ²¹tɔ²¹ |
-| 97 | Xiangyun | 2042 | ɣɔ²¹tɔ²¹ |
-| 98 | Luobenzhuo | 2042 | ʔo⁴⁴tɤ³¹ |
-| 99 | Zhoucheng | 2042 | ɔ²¹tɔ²¹ |
+||
 
-(100 rows)
+(0 rows)
 
 
 
 ## Words with invalid segments (up to 100 only)
 
 | ID | LANGUAGE | CONCEPT | FORM | SEGMENTS |
-||
+|-----:|:-----------|----------:|:------------------|:-------------------------------------|
+| 1277 | Luobenzhuo | 1663 | ɴ̣³³tĩ³³ʧʰʊ³¹qʰã⁴² | <s> ɴ̣ </s> ³³ t ĩ ³³ ʧʰ ʊ ³¹ qʰ ã ⁴² |
+| 1894 | Luobenzhuo | 1585 | ɴ̣³³ti³¹ | <s> ɴ̣ </s> ³³ t i ³¹ |
+| 2106 | Luobenzhuo | 991 | ɴ̣³¹ | <s> ɴ̣ </s> ³¹ |
+| 3216 | Luobenzhuo | 1035 | ɴ̣³³ | <s> ɴ̣ </s> ³³ |
+| 3514 | Qiliqiao | 2077 | ʰɯ⁵⁵tɕɯ³¹ | <s> ʰɯ </s> ⁵⁵ tɕ ɯ ³¹ |
+| 3684 | Heqing | 516 | tɯ²¹‹›ji²¹ | t ɯ ²¹ <s> ‹ </s> <s> › </s> j i ²¹ |
+| 3989 | Jianchuan | 728 | ɕĩ⁵⁵‹›tɯ²¹ | ɕ ĩ ⁵⁵ <s> ‹ </s> <s> › </s> t ɯ ²¹ |
+| 4249 | Luobenzhuo | 227 | ɴ̣³⁵ | <s> ɴ̣ </s> ³⁵ |
+| 4276 | Luobenzhuo | 665 | tɕɛ̃⁵⁵ɴ̥ɴ̣⁵⁵ | tɕ ɛ̃ ⁵⁵ ɴ̥ <s> ɴ̣ </s> ⁵⁵ |
+| 971 | Luobenzhuo | 768 | ɲi⁵⁵ɴ̥ɴ̣³³bɛ̃³³ | ɲ i ⁵⁵ ɴ̥ <s> ɴ̣ </s> ³³ b ɛ̃ ³³ |
 
-(0 rows)
+(10 rows)
 
 
