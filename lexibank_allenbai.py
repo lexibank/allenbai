@@ -28,7 +28,14 @@ class Dataset(BaseDataset):
 
     @lazyproperty
     def tokenizer(self):
-        return lambda row, string: clean_string(string)[0].split()
+        return lambda row, string: clean_string(
+                string,
+                preparse=[
+                    ('‹', ''), 
+                    ('›', ''),
+                    ('ɴ̣', 'ɴ̩'),
+                    ],
+                )[0].split()
 
     def cmd_download(self, **kw):
         self.raw.write('sources.bib', getEvoBibAsBibtex('Allen2007', **kw))
