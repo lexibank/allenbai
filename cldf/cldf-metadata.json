@@ -6,7 +6,9 @@
     "dc:identifier": "http://www.sil.org/resources/publications/entry/9121",
     "dc:source": "sources.bib",
     "dc:title": "Bai Dialect Survey",
+    "dcat:accessURL": "https://github.com/lexibank/allenbai",
     "rdf:ID": "allenbai",
+    "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "dialect": {
         "commentPrefix": null
     },
@@ -14,8 +16,8 @@
         {
             "dc:title": "environment",
             "properties": {
-                "glottolog_version": "pyglottolog-1.2.0-2-ge152243",
-                "concepticon_version": "pyconcepticon-1.4.0-6-g413fdc7"
+                "glottolog_version": "v3.3.2",
+                "concepticon_version": "pyconcepticon-1.4.0-10-g1d57531"
             }
         }
     ],
@@ -188,7 +190,7 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "Chinese_Gloss"
+                        "name": "Chinese"
                     }
                 ],
                 "primaryKey": [
