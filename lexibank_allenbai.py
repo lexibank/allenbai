@@ -14,11 +14,12 @@ from pylexibank.util import pb, getEvoBibAsBibtex
 
 @attr.s
 class BaidialConcept(Concept):
-    Chinese_Gloss = attr.ib(default=None)
+    Chinese = attr.ib(default=None)
 
 
 class Dataset(BaseDataset):
     dir = Path(__file__).parent
+    id = 'allenbai'
     concept_class = BaidialConcept
 
     def clean_form(self, row, form):
@@ -42,21 +43,13 @@ class Dataset(BaseDataset):
 
     def cmd_install(self, **kw):
         wl = lingpy.Wordlist(self.raw.posix('Bai-Dialect-Survey.tsv'))
-        gcode = {x['NAME']: x['GLOTTOCODE'] for x in self.languages}
 
         with self.cldf as ds:
-            ds.add_sources(*self.raw.read_bib())
+            ds.add_concepts(id_factory=lambda c: c.concepticon_id)
+            ds.add_languages(id_factory=lambda l: l['Name'])
+            ds.add_sources()
             for k in pb(wl, desc='wl-to-cldf'):
                 if wl[k, 'value']:
-                    ds.add_language(
-                        ID=wl[k, 'doculect'],
-                        Name=wl[k, 'doculect'],
-                        Glottocode=gcode[wl[k, 'doculect']])
-                    ds.add_concept(
-                        ID=wl[k, 'concepticon_id'],
-                        Name=wl[k, 'concept'],
-                        Concepticon_ID=wl[k, 'concepticon_id'],
-                        Chinese_Gloss=wl[k, 'chinese'])
                     ds.add_lexemes(
                         Language_ID=wl[k, 'doculect'],
                         Parameter_ID=wl[k, 'concepticon_id'],
