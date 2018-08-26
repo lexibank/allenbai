@@ -45,7 +45,7 @@ class Dataset(BaseDataset):
         wl = lingpy.Wordlist(self.raw.posix('Bai-Dialect-Survey.tsv'))
 
         with self.cldf as ds:
-            ds.add_concepts(id_factory=lambda c: c['CONCEPTICON_ID'])
+            ds.add_concepts(id_factory=lambda c: c.concepticon_id)
             ds.add_languages(id_factory=lambda l: l['Name'])
             ds.add_sources()
             for k in pb(wl, desc='wl-to-cldf'):
