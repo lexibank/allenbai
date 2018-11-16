@@ -50,9 +50,17 @@ class Dataset(BaseDataset):
             ds.add_sources()
             for k in pb(wl, desc='wl-to-cldf'):
                 if wl[k, 'value']:
+                    # fix the concepticon_id, if needed (later changes
+                    # to concepticon)
+                    if wl[k, 'concepticon_id'] == '430':
+                        parameter_id = 3236
+                    else:
+                        parameter_id = wl[k, 'concepticon_id']
+
+                    # add the lexeme
                     ds.add_lexemes(
                         Language_ID=wl[k, 'doculect'],
-                        Parameter_ID=wl[k, 'concepticon_id'],
+                        Parameter_ID=parameter_id,
                         Value=wl[k, 'value'],
                         Source='Allen2007')
 
