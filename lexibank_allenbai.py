@@ -52,7 +52,7 @@ class Dataset(BaseDataset):
                 if wl[k, 'value']:
                     # fix the concepticon_id, if needed (later changes
                     # to concepticon)
-                    if wl[k, 'concepticon_id'] == '430':
+                    if int(wl[k, 'concepticon_id']) == 430:
                         parameter_id = 3236
                     else:
                         parameter_id = wl[k, 'concepticon_id']
