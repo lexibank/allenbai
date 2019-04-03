@@ -2,7 +2,7 @@
 from __future__ import unicode_literals, print_function
 
 import lingpy
-from lingpy.sequence.sound_classes import clean_string
+from lingpy.sequence.sound_classes import clean_string, syllabify
 import attr
 
 from clldutils.path import Path
@@ -23,20 +23,21 @@ class Dataset(BaseDataset):
     concept_class = BaidialConcept
 
     def clean_form(self, row, form):
-        form = form.strip()
+        form = self.lexemes.get(form.strip(), form.strip())
+
         if form not in '---':
             return form
 
     @lazyproperty
     def tokenizer(self):
-        return lambda row, string: clean_string(
+        return lambda row, string: syllabify(clean_string(
                 string,
                 preparse=[
                     ('‹', ''), 
                     ('›', ''),
                     ('ɴ̣', 'ɴ̩'),
                     ],
-                )[0].split()
+                )[0].split())
 
     def cmd_download(self, **kw):
         self.raw.write('sources.bib', getEvoBibAsBibtex('Allen2007', **kw))
