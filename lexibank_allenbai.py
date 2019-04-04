@@ -46,22 +46,16 @@ class Dataset(BaseDataset):
         wl = lingpy.Wordlist(self.raw.posix('Bai-Dialect-Survey.tsv'))
 
         with self.cldf as ds:
-            ds.add_concepts(id_factory=lambda c: c.concepticon_id)
+            ds.add_concepts(id_factory=lambda c: c.number)
+            concept2id = {c.english: c.number for c in
+                    self.conceptlist.concepts.values()}
             ds.add_languages(id_factory=lambda l: l['Name'])
             ds.add_sources()
             for k in pb(wl, desc='wl-to-cldf'):
                 if wl[k, 'value']:
-                    # fix the concepticon_id, if needed (later changes
-                    # to concepticon)
-                    if int(wl[k, 'concepticon_id']) == 430:
-                        parameter_id = 3236
-                    else:
-                        parameter_id = wl[k, 'concepticon_id']
-
-                    # add the lexeme
                     ds.add_lexemes(
                         Language_ID=wl[k, 'doculect'],
-                        Parameter_ID=parameter_id,
+                        Parameter_ID=concept2id[wl[k, 'concept']],
                         Value=wl[k, 'value'],
                         Source='Allen2007')
 

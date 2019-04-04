@@ -6,7 +6,8 @@ Cite the source dataset as
 
 Available online at http://www.sil.org/resources/publications/entry/9121
 
-Conceptlist in Concepticon: [Allen-2007-500](http://concepticon.clld.org/contributions/Allen-2007-500)
+Conceptlists in Concepticon:
+- [Allen-2007-500](http://concepticon.clld.org/contributions/Allen-2007-500)
 
 ## Statistics
 
