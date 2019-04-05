@@ -10,7 +10,6 @@ with open('metadata.json', **({} if PY2 else {'encoding': 'utf-8'})) as fp:
 
 setup(
     name='lexibank_allenbai',
-    version="1.0",
     description=metadata['title'],
     license=metadata.get('license', ''),
     url=metadata.get('url', ''),
@@ -23,10 +22,12 @@ setup(
         ]
     },
     install_requires=[
-        'pylexibank>=1.0',
+        'pylexibank==1.1.1',
     ],
     extras_require={
-        'test': ['pytest-cldf'],
+        'test': [
+            'pytest-cldf'
+        ],
     }
 )
 
