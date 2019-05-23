@@ -28,17 +28,6 @@ class Dataset(BaseDataset):
         if form not in '---':
             return form
 
-    @lazyproperty
-    def tokenizer(self):
-        return lambda row, string: syllabify(clean_string(
-                string,
-                preparse=[
-                    ('‹', ''), 
-                    ('›', ''),
-                    ('ɴ̣', 'ɴ̩'),
-                    ],
-                )[0].split())
-
     def cmd_download(self, **kw):
         self.raw.write('sources.bib', getEvoBibAsBibtex('Allen2007', **kw))
 

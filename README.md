@@ -9,6 +9,12 @@ Available online at http://www.sil.org/resources/publications/entry/9121
 Conceptlists in Concepticon:
 - [Allen-2007-500](http://concepticon.clld.org/contributions/Allen-2007-500)
 
+## Notes
+
+This dataset comprises 9 varieties of Bai, a Sino-Tibetan language whose origin is still vividly discussed among scholars. We have slightly modified the IPA representation and added morphological segmentation markers to the data as well.
+
+
+
 ## Statistics
 
 
@@ -23,8 +29,7 @@ Conceptlists in Concepticon:
 - **Concepts:** 499
 - **Lexemes:** 4,546
 - **Synonymy:** 1.01
-- **Cognacy:** 0 cognates in 0 cognate sets
 - **Invalid lexemes:** 0
-- **Tokens:** 22,268
-- **Segments:** 96 (0 BIPA errors, 0 CTLS sound class errors, 96 CLTS modified)
-- **Inventory size (avg):** 55.00
+- **Tokens:** 20,700
+- **Segments:** 105 (0 BIPA errors, 0 CTLS sound class errors, 105 CLTS modified)
+- **Inventory size (avg):** 58.67
