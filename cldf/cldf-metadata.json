@@ -1,11 +1,16 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
+    "aboutUrl": null,
     "dc:bibliographicCitation": "Allen, Bryan. 2007. Bai Dialect Survey. SIL International.",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
+    "dc:description": null,
     "dc:format": [
         "http://concepticon.clld.org/contributions/Allen-2007-500"
     ],
     "dc:identifier": "http://www.sil.org/resources/publications/entry/9121",
+    "dc:isVersionOf": null,
+    "dc:license": null,
+    "dc:related": null,
     "dc:source": "sources.bib",
     "dc:title": "Bai Dialect Survey",
     "rdf:ID": "allenbai",
@@ -17,7 +22,7 @@
         {
             "dc:title": "environment",
             "properties": {
-                "glottolog_version": "v3.4",
+                "glottolog_version": "v4.0",
                 "concepticon_version": "v2.0"
             }
         }

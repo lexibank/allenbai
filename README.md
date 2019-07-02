@@ -13,7 +13,10 @@ Conceptlists in Concepticon:
 
 This dataset comprises 9 varieties of Bai, a Sino-Tibetan language whose origin is still vividly discussed among scholars. We have slightly modified the IPA representation and added morphological segmentation markers to the data as well.
 
+
+
 ## Statistics
+
 
 [![Build Status](https://travis-ci.org/lexibank/allenbai.svg?branch=master)](https://travis-ci.org/lexibank/allenbai)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
@@ -30,4 +33,3 @@ This dataset comprises 9 varieties of Bai, a Sino-Tibetan language whose origin 
 - **Tokens:** 22,268
 - **Segments:** 96 (0 BIPA errors, 0 CTLS sound class errors, 96 CLTS modified)
 - **Inventory size (avg):** 55.00
-
