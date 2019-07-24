@@ -2,7 +2,7 @@
 
 Cite the source dataset as
 
-> Allen, Bryan. 2007. Bai Dialect Survey. SIL International.
+> Allen, Bryan (2007): Bai Dialect Survey. Dallas: SIL International.
 
 Available online at http://www.sil.org/resources/publications/entry/9121
 
@@ -34,4 +34,3 @@ This dataset comprises 9 varieties of Bai, a Sino-Tibetan language whose origin 
 - **Tokens:** 21,976
 - **Segments:** 107 (0 BIPA errors, 0 CTLS sound class errors, 107 CLTS modified)
 - **Inventory size (avg):** 57.33
-

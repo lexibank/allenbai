@@ -1,7 +1,7 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "aboutUrl": null,
-    "dc:bibliographicCitation": "Allen, Bryan. 2007. Bai Dialect Survey. SIL International.",
+    "dc:bibliographicCitation": "Allen, Bryan (2007): Bai Dialect Survey. Dallas: SIL International.",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:description": null,
     "dc:format": [
@@ -13,6 +13,7 @@
     "dc:related": null,
     "dc:source": "sources.bib",
     "dc:title": "Bai Dialect Survey",
+    "dcat:accessURL": "https://github.com/lexibank/allenbai",
     "rdf:ID": "allenbai",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "dialect": {
@@ -24,7 +25,6 @@
             "properties": {
                 "glottolog_version": "v4.0-12-ge90a2e3",
                 "concepticon_version": "v2.0-28-g30d405a"
-
             }
         }
     ],
