@@ -17,7 +17,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Chinese
 16,lake,624,LAKE,湖
 17,pond,2035,POND,水塘
 18,wet field,140,PADDY FIELD,水田
-19,meadow,,,旱地
+19,meadow,212,FIELD,旱地
 20,earth,2159,GROUND,地
 21,soil,1228,EARTH (SOIL),土
 22,mountain,639,MOUNTAIN,山
@@ -91,7 +91,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Chinese
 90,pine tree,1740,PINE,松树
 91,willow,818,WILLOW,柳树
 92,bamboo,1927,BAMBOO,竹子
-93,paddy field,2026,RICE PLANT,水稻
+93,paddy field,3390,WILD RICE,水稻
 94,"corn,maize",506,MAIZE,玉米
 95,barley,932,BARLEY,大麦
 96,buckwheat,2040,BUCKWHEAT,荞
@@ -115,7 +115,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Chinese
 114,seed,714,SEED,种子
 115,root,670,ROOT,根
 116,leaf,628,LEAF,叶
-117,"shoot,sprout",1172,SHOOT,芽
+117,"shoot,sprout",3358,SPROUT (SHOOT),芽
 118,flower,239,FLOWER,花
 119,fruit,1507,FRUIT,果
 120,"pit,stone",1762,STONE (OF FRUIT),核
@@ -131,7 +131,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Chinese
 130,mouth,674,MOUTH,嘴
 131,tooth,1380,TOOTH,牙
 132,tongue,1205,TONGUE,舌头
-133,"beard,moustache",1165,MOUSTACHE,胡子
+133,"beard,moustache",678,BEARD,胡子
 134,neck,1333,NECK,脖子
 135,hand,1277,HAND,手
 136,finger,1303,FINGER,手指
@@ -183,7 +183,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Chinese
 182,earring,770,EARRING,耳环
 183,bracelet,1754,BRACELET,手镯
 184,bamboo hat,2160,BAMBOO HAT,斗笠
-185,palm bark rain cape,,,蓑衣
+185,palm bark rain cape,1662,CAPE,蓑衣
 186,shoe,1381,SHOE,鞋
 187,straw sandal,2047,STRAW SANDAL,草鞋
 188,straw mat,195,MAT,草席
@@ -209,7 +209,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Chinese
 208,hoe,284,HOE,锄头
 209,plough (implement),2154,PLOUGH (INSTRUMENT),犁
 210,"mill,grind",636,MILL,磨
-211,sieve,86,SIEVE,筛子
+211,sieve,3353,SIEVE (TOOL),筛子
 212,broom,245,BROOM,扫帚
 213,dustpan,2051,DUSTPAN,簸箕
 214,bucket,2052,BUCKET,桶
@@ -268,7 +268,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Chinese
 267,read,724,READ,读
 268,shout,715,SHOUT,喊
 269,hold,1448,HOLD,拿
-270,hit (table),3309,STRIKE (SOMETHING),拍（桌子）
+270,hit (table),2133,STRIKE OR BEAT,拍（桌子）
 271,pick (fruit),2148,PICK,摘（果子）
 272,twist (rope),3236,TWIST (TOGETHER),搓（绳子）
 273,pick up from ground (grain),371,PICK UP,拾（谷子）
@@ -317,7 +317,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Chinese
 316,grind (wheat),1033,GRIND,磨（面）
 317,wear (hat),976,WEAR,戴（帽）
 318,hang out (clothes),357,HANG UP,晾（衣）
-319,dry (sthg) in sun,1786,DRY UP,晒
+319,dry (sthg) in sun,3364,DRY IN SUN,晒
 320,wash,1453,WASH,洗
 321,shave (head),231,SHAVE,剃（头）
 322,comb (hair),2070,COMB (VERB),梳（头）
@@ -339,7 +339,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Chinese
 338,help,1897,HELP,帮助
 339,meet,1831,MEET,遇见
 340,flee,956,FLEE,逃
-341,chase,1435,HUNT,追
+341,chase,1047,PURSUE,追
 342,rob,2073,ROB (VERB),抢
 343,steal,713,STEAL,偷
 344,"deceive,cheat",1902,BETRAY,骗
@@ -493,7 +493,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Chinese
 493,just now,84,JUST,刚才
 494,first,728,FIRST,先
 495,afterwards,2093,AFTERWARDS,后
-496,slowly,701,SLOW,慢慢
+496,slowly,2165,SLOWLY,慢慢
 497,quickly,1631,FAST,快快
 498,very,1311,VERY,很
 499,all,98,ALL,都
