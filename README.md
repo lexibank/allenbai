@@ -28,8 +28,9 @@ This dataset comprises 9 varieties of Bai, a Sino-Tibetan language whose origin 
 - **Varieties:** 9
 - **Concepts:** 499
 - **Lexemes:** 4,546
+- **Sources:** 1
 - **Synonymy:** 1.01
 - **Invalid lexemes:** 0
-- **Tokens:** 20,700
-- **Segments:** 105 (0 BIPA errors, 0 CTLS sound class errors, 105 CLTS modified)
-- **Inventory size (avg):** 58.67
+- **Tokens:** 21,976
+- **Segments:** 107 (0 BIPA errors, 0 CTLS sound class errors, 107 CLTS modified)
+- **Inventory size (avg):** 57.33

@@ -1,1017 +1,255 @@
-Grapheme	IPA	CV	FREQ
-^t	t	C	0
-³³$	³³	T	0
-⁴⁴$	⁴⁴	T	0
-⁵⁵$	⁵⁵	T	0
-ts	ts	CC	0
-^ts	ts	CC	0
-²¹$	²¹	T	0
-³¹$	³¹	T	0
-⁴²$	⁴²	T	0
-^k	k	C	0
-^s	s	C	0
-sɿ	s ɿ	CV	0
-^p	p	C	0
-³⁵$	³⁵	T	0
-tɕ	tɕ	CC	0
-^tɕ	tɕ	CC	0
-a⁴⁴	a ⁴⁴	VT	0
-^m	m	C	0
-ɕi	ɕ i	CV	0
-tsʰ	tsʰ	CC	0
-^tsʰ	tsʰ	CC	0
-^j	j	C	0
-a⁵⁵	a ⁵⁵	VT	0
-^x	x	C	0
-ua	w a	VV	0
-^ɕ	ɕ	C	0
-ɿ³³	ɿ ³³	VT	0
-tɕʰ	tɕʰ	CC	0
-^tɕʰ	tɕʰ	CC	0
-u³³	u ³³	VT	0
-i⁴⁴	i ⁴⁴	VT	0
-i⁵⁵	i ⁵⁵	VT	0
-ɛ⁴⁴	ɛ ⁴⁴	VT	0
-tɯ	t ɯ	CV	0
-ɯ²¹	ɯ ²¹	VT	0
-^kʰ	kʰ	C	0
-ku	k u	CV	0
-⁵⁵t	⁵⁵ + t	TC	0
-ɯ³¹	ɯ ³¹	VT	0
-ou	ou	VV	0
-ɯ³³	ɯ ³³	VT	0
-ɯ⁵⁵	ɯ ⁵⁵	VT	0
-⁴⁴t	⁴⁴ + t	TC	0
-a⁴²	a ⁴²	VT	0
-ɛ⁵⁵	ɛ ⁵⁵	VT	0
-^n	n	C	0
-su	s u	CV	0
-ɯ⁴⁴	ɯ ⁴⁴	VT	0
-i³¹	i ³¹	VT	0
-e⁴⁴	e ⁴⁴	VT	0
-^w	w	C	0
-ɤ³³	ɤ ³³	VT	0
-ao	ao	VV	0
-^a	a	V	0
-^pʰ	pʰ	C	0
-ɛ⁴²	ɛ ⁴²	VT	0
-ɔ²¹	ɔ ²¹	VT	0
-u³¹	u ³¹	VT	0
-ɔ³¹	ɔ ³¹	VT	0
-a³¹	a ³¹	VT	0
-a³⁵	a ³⁵	VT	0
-^ŋ	ŋ	C	0
-³³t	³³ + t	TC	0
-mi	m i	CV	0
-u⁵⁵	u ⁵⁵	VT	0
-i³³	i ³³	VT	0
-ã⁵⁵	ã ⁵⁵	VT	0
-pi	p i	CV	0
-^l	l	C	0
-e³³	e ³³	VT	0
-sɯ	s ɯ	CV	0
-se	s e	CV	0
-ɔ³³	ɔ ³³	VT	0
-kɯ	k ɯ	CV	0
-³¹t	³¹ + t	TC	0
-ɲi	ɲ i	CV	0
-u²¹	u ²¹	VT	0
-kʰu	kʰ u	CV	0
-so	s o	CV	0
-ta	t a	CV	0
-ɿ⁵⁵	ɿ ⁵⁵	VT	0
-^ɲ	ɲ	C	0
-i³⁵	i ³⁵	VT	0
-i²¹	i ²¹	VT	0
-ɛ²¹	ɛ ²¹	VT	0
-pa	p a	CV	0
-ji	j i	CV	0
-a²¹	a ²¹	VT	0
-uɔ	w ɔ	VV	0
-pe	p e	CV	0
-o⁵⁵	o ⁵⁵	VT	0
-ɕʰi	ɕʰ i	CV	0
-e⁵⁵	e ⁵⁵	VT	0
-²¹t	²¹ + t	TC	0
-³⁵t	³⁵ + t	TC	0
-o⁴⁴	o ⁴⁴	VT	0
-mɛ	m ɛ	CV	0
-o³¹	o ³¹	VT	0
-ɔ³⁵	ɔ ³⁵	VT	0
-kɛ	k ɛ	CV	0
-sɔ	s ɔ	CV	0
-ɤ⁴⁴	ɤ ⁴⁴	VT	0
-ɛ³³	ɛ ³³	VT	0
-e⁴²	e ⁴²	VT	0
-ɯ⁴²	ɯ ⁴²	VT	0
-na	n a	CV	0
-ɔu	ɔu	VV	0
-^tʰ	tʰ	C	0
-sɤ	s ɤ	CV	0
-ue	w e	VV	0
-pɔ	p ɔ	CV	0
-o³³	o ³³	VT	0
-ɛ̃⁵⁵	ɛ̃ ⁵⁵	VT	0
-ma	m a	CV	0
-jĩ	j ĩ	CV	0
-ka	k a	CV	0
-sa	s a	CV	0
-u⁴⁴	u ⁴⁴	VT	0
-ɔ⁵⁵	ɔ ⁵⁵	VT	0
-sʰu	sʰ u	CV	0
-vɤ	v ɤ	CV	0
-pʰi	pʰ i	CV	0
-^ɣ	ɣ	C	0
-ɔ⁴⁴	ɔ ⁴⁴	VT	0
-^v	v	C	0
-ɛ³¹	ɛ ³¹	VT	0
-^f	f	C	0
-⁵⁵k	⁵⁵ + k	TC	0
-ĩ⁵⁵	ĩ ⁵⁵	VT	0
-a³³	a ³³	VT	0
-iɛ	j ɛ	VV	0
-xu	x u	CV	0
-ɕĩ	ɕ ĩ	CV	0
-ɣɯ	ɣ ɯ	CV	0
-kɤ	k ɤ	CV	0
-^kʲ	kʲ	C	0
-ɕy	ɕ y	CV	0
-to	t o	CV	0
-o²¹	o ²¹	VT	0
-fɤ	f ɤ	CV	0
-³²$	³²	T	0
-ɯ³⁵	ɯ ³⁵	VT	0
-ɤ³¹	ɤ ³¹	VT	0
-⁴²t	⁴² + t	TC	0
-o⁴²	o ⁴²	VT	0
-ũã	ũ/w ã	VV	0
-la	l a	CV	0
-tɔ	t ɔ	CV	0
-ẽ⁵⁵	ẽ ⁵⁵	VT	0
-sɛ	s ɛ	CV	0
-^z	z	C	0
-ɛ³⁵	ɛ ³⁵	VT	0
-tʂ	ʈʂ	CC	0
-^tʂ	ʈʂ	CC	0
-⁵⁵l	⁵⁵ + l	TC	0
-me	m e	CV	0
-pɯ	p ɯ	CV	0
-ɔ⁴²	ɔ ⁴²	VT	0
-ɿ³¹	ɿ ³¹	VT	0
-tu	t u	CV	0
-e²¹	e ²¹	VT	0
-u⁴²	u ⁴²	VT	0
-wa	w a	CV	0
-ia	j a	VV	0
-ã⁴⁴	ã ⁴⁴	VT	0
-pɛ	p ɛ	CV	0
-ɤ²¹	ɤ ²¹	VT	0
-po	p o	CV	0
-ti	t i	CV	0
-^d	d	C	0
-ĩ⁴⁴	ĩ ⁴⁴	VT	0
-y³³	y ³³	VT	0
-kɔ	k ɔ	CV	0
-³¹p	³¹ + p	TC	0
-i⁴²	i ⁴²	VT	0
-ɕɛ	ɕ ɛ	CV	0
-kʲɛ	kʲ ɛ	CV	0
-sʰɯ	sʰ ɯ	CV	0
-ɕo	ɕ o	CV	0
-kã	k ã	CV	0
-e³⁵	e ³⁵	VT	0
-⁵⁵s	⁵⁵ + s	TC	0
-ẽ³³	ẽ ³³	VT	0
-lɔ	l ɔ	CV	0
-e³¹	e ³¹	VT	0
-^q	q	C	0
-jɯ	j ɯ	CV	0
-⁵⁵m	⁵⁵ + m	TC	0
-ko	k o	CV	0
-xɯ	x ɯ	CV	0
-uɛ	w ɛ	VV	0
-ɿ²¹	ɿ ²¹	VT	0
-jɔ	j ɔ	CV	0
-mɯ	m ɯ	CV	0
-³³k	³³ + k	TC	0
-xɛ	x ɛ	CV	0
-we	w e	CV	0
-ɤ⁵⁵	ɤ ⁵⁵	VT	0
-ɤ⁴²	ɤ ⁴²	VT	0
-⁵⁵j	⁵⁵ + j	TC	0
-ke	k e	CV	0
-sʰɛ	sʰ ɛ	CV	0
-ŋɛ	ŋ ɛ	CV	0
-ni	n i	CV	0
-kʰɯ	kʰ ɯ	CV	0
-²¹k	²¹ + k	TC	0
-mɔ	m ɔ	CV	0
-sʰɿ	sʰ ɿ	CV	0
-ɛ̃³³	ɛ̃ ³³	VT	0
-³¹m	³¹ + m	TC	0
-sẽ	s ẽ	CV	0
-wẽ	w ẽ	CV	0
-ɤ³⁵	ɤ ³⁵	VT	0
-^ʂ	ʂ	C	0
-xɔ	x ɔ	CV	0
-zɿ	z ɿ	CV	0
-³³j	³³ + j	TC	0
-⁵⁵ɕ	⁵⁵ + ɕ	TC	0
-te	t e	CV	0
-³³p	³³ + p	TC	0
-⁵⁵p	⁵⁵ + p	TC	0
-sɛ̃	s ɛ̃	CV	0
-ɕa	ɕ a	CV	0
-^sʰ	sʰ	C	0
-xa	x a	CV	0
-ɯ̃⁵⁵	ɯ̃ ⁵⁵	VT	0
-³³m	³³ + m	TC	0
-ŋu	ŋ u	CV	0
-^u	u	V	0
-ĩ²¹	ĩ ²¹	VT	0
-ŋɯ	ŋ ɯ	CV	0
-wã	w ã	CV	0
-iɯ	j ɯ	VV	0
-õ⁵⁵	õ ⁵⁵	VT	0
-sʰɛ̃	sʰ ɛ̃	CV	0
-ɯ̃³³	ɯ̃ ³³	VT	0
-ŋa	ŋ a	CV	0
-ã³³	ã ³³	VT	0
-ẽ⁴²	ẽ ⁴²	VT	0
-ɕɯ	ɕ ɯ	CV	0
-⁵⁵x	⁵⁵ + x	TC	0
-tɛ	t ɛ	CV	0
-li	l i	CV	0
-⁵⁵n	⁵⁵ + n	TC	0
-sõ	s õ	CV	0
-²¹p	²¹ + p	TC	0
-³¹k	³¹ + k	TC	0
-³³ɲ	³³ + ɲ	TC	0
-³⁵p	³⁵ + p	TC	0
-kʰa	kʰ a	CV	0
-pʰa	pʰ a	CV	0
-ɛ̃²¹	ɛ̃ ²¹	VT	0
-ĩ³³	ĩ ³³	VT	0
-ɛ̃⁴²	ɛ̃ ⁴²	VT	0
-nɔ	n ɔ	CV	0
-ɿ⁴⁴	ɿ ⁴⁴	VT	0
-⁴²k	⁴² + k	TC	0
-u³⁵	u ³⁵	VT	0
-sũ	s ũ	CV	0
-jo	j o	CV	0
-ã³⁵	ã ³⁵	VT	0
-nɯ	n ɯ	CV	0
-fɛ	f ɛ	CV	0
-³¹x	³¹ + x	TC	0
-xe	x e	CV	0
-²¹s	²¹ + s	TC	0
-ɿ³⁵	ɿ ³⁵	VT	0
-^ʔ	ʔ	C	0
-dz	dz	CC	0
-^dz	dz	CC	0
-jɛ̃	j ɛ̃	CV	0
-kʰɔ	kʰ ɔ	CV	0
-ne	n e	CV	0
-ja	j a	CV	0
-ɕʰĩ	ɕʰ ĩ	CV	0
-tʰu	tʰ u	CV	0
-kʲi	kʲ i	CV	0
-iɔ	j ɔ	VV	0
-y⁵⁵	y ⁵⁵	VT	0
-^b	b	C	0
-qa	q a	CV	0
-²¹m	²¹ + m	TC	0
-kʰɤ	kʰ ɤ	CV	0
-⁵⁵w	⁵⁵ + w	TC	0
-pʰɛ	pʰ ɛ	CV	0
-²¹tʰ	²¹ + tʰ	TC	0
-lɛ	l ɛ	CV	0
-sʰo	sʰ o	CV	0
-tʰa	tʰ a	CV	0
-^qʰ	qʰ	C	0
-mu	m u	CV	0
-⁴⁴p	⁴⁴ + p	TC	0
-wu	w u	CV	0
-⁴²m	⁴² + m	TC	0
-ɿ⁴²	ɿ ⁴²	VT	0
-³⁵s	³⁵ + s	TC	0
-ɕɛ̃	ɕ ɛ̃	CV	0
-wɛ	w ɛ	CV	0
-³³ɕ	³³ + ɕ	TC	0
-⁵⁵kʰ	⁵⁵ + kʰ	TC	0
-^ɔ	ɔ	V	0
-^ʈ	ʈ	C	0
-lu	l u	CV	0
-ʂɯ	ʂ ɯ	CV	0
-^ʐ	ʐ	C	0
-⁴⁴k	⁴⁴ + k	TC	0
-mo	m o	CV	0
-ɕʰɛ̃	ɕʰ ɛ̃	CV	0
-ɯ̃⁴²	ɯ̃ ⁴²	VT	0
-³¹s	³¹ + s	TC	0
-ɛ³²	ɛ ³²	VT	0
-tʰi	tʰ i	CV	0
-^ɯ	ɯ	V	0
-ɕʰɛ	ɕʰ ɛ	CV	0
-ɕã	ɕ ã	CV	0
-⁴⁴f	⁴⁴ + f	TC	0
-kʰũ	kʰ ũ	CV	0
-ʂɔ	ʂ ɔ	CV	0
-lɯ	l ɯ	CV	0
-³⁵k	³⁵ + k	TC	0
-ɯ̃³¹	ɯ̃ ³¹	VT	0
-ĩ³¹	ĩ ³¹	VT	0
-^ʃ	ʃ	C	0
-õ²¹	õ ²¹	VT	0
-ŋɤ	ŋ ɤ	CV	0
-sɯ̃	s ɯ̃	CV	0
-)$	NULL	0	0
-⁴²kʰ	⁴² + kʰ	TC	0
-⁴⁴m	⁴⁴ + m	TC	0
-ɛ̃⁴⁴	ɛ̃ ⁴⁴	VT	0
-⁵⁵v	⁵⁵ + v	TC	0
-ã³¹	ã ³¹	VT	0
-xẽ	x ẽ	CV	0
-pʰɔ	pʰ ɔ	CV	0
-tɤ	t ɤ	CV	0
-xo	x o	CV	0
-kʰo	kʰ o	CV	0
-³¹kʰ	³¹ + kʰ	TC	0
-ɲɤ	ɲ ɤ	CV	0
-ɔ̃²¹	ɔ̃ ²¹	VT	0
-pʰĩ	pʰ ĩ	CV	0
-ʂɤ	ʂ ɤ	CV	0
-sɔ̃	s ɔ̃	CV	0
-⁴⁴j	⁴⁴ + j	TC	0
-pĩ	p ĩ	CV	0
-sã	s ã	CV	0
-ɕu	ɕ u	CV	0
-^xʰ	xʰ	C	0
-ɕõ	ɕ õ	CV	0
-õ³³	õ ³³	VT	0
-kũ	k ũ	CV	0
-^ʧʰ	ʧʰ	C	0
-ɤ̃³³	ɤ̃ ³³	VT	0
-ɔ̃³³	ɔ̃ ³³	VT	0
-ɔ̃³¹	ɔ̃ ³¹	VT	0
-ã⁴²	ã ⁴²	VT	0
-ã²¹	ã ²¹	VT	0
-kɛ̃	k ɛ̃	CV	0
-³⁵j	³⁵ + j	TC	0
-³⁵l	³⁵ + l	TC	0
-xã	x ã	CV	0
-ɛ̃³¹	ɛ̃ ³¹	VT	0
-³³s	³³ + s	TC	0
-ɕɔ	ɕ ɔ	CV	0
-lo	l o	CV	0
-tɯ̃	t ɯ̃	CV	0
-⁴²s	⁴² + s	TC	0
-⁵⁵pʰ	⁵⁵ + pʰ	TC	0
-tã	t ã	CV	0
-tʰɤ	tʰ ɤ	CV	0
-⁴²p	⁴² + p	TC	0
-pʰu	pʰ u	CV	0
-o³⁵	o ³⁵	VT	0
-sʰɔ	sʰ ɔ	CV	0
-ʧʰu	ʧʰ u	CV	0
-sɤ̃	s ɤ̃	CV	0
-bo	b o	CV	0
-sʰe	sʰ e	CV	0
-nɤ	n ɤ	CV	0
-mɯ̃	m ɯ̃	CV	0
-³³kʰ	³³ + kʰ	TC	0
-ɔ̃⁵⁵	ɔ̃ ⁵⁵	VT	0
-qu	q u	CV	0
-ɛ̃³⁵	ɛ̃ ³⁵	VT	0
-³³n	³³ + n	TC	0
-jɛ	j ɛ	CV	0
-xɛ̃	x ɛ̃	CV	0
-ɕʰu	ɕʰ u	CV	0
-sʰa	sʰ a	CV	0
-^tʂʰ	ʈʂʰ	CC	0
-^tʂʰ	ʈʂʰ	CC	0
-tʰɯ	tʰ ɯ	CV	0
-⁵⁵ɲ	⁵⁵ + ɲ	TC	0
-pʰɯ	pʰ ɯ	CV	0
-³⁵m	³⁵ + m	TC	0
-y⁴⁴	y ⁴⁴	VT	0
-dɯ	d ɯ	CV	0
-ũɔ̃	w ɔ̃	VV	0
-õ⁴⁴	õ ⁴⁴	VT	0
-zɯ	z ɯ	CV	0
-ẽ⁴⁴	ẽ ⁴⁴	VT	0
-ɔ̃⁴²	ɔ̃ ⁴²	VT	0
-ʃɤ	ʃ ɤ	CV	0
-⁴⁴pʰ	⁴⁴ + pʰ	TC	0
-ki	k i	CV	0
-⁴⁴ɕ	⁴⁴ + ɕ	TC	0
-ĩɛ̃	j ɛ̃	VV	0
-i³²	i ³²	VT	0
-⁵⁵ɣ	⁵⁵ + ɣ	TC	0
-ɕʰa	ɕʰ a	CV	0
-zɔ	z ɔ	CV	0
-^ɤ	ɤ	V	0
-nɛ	n ɛ	CV	0
-ɣo	ɣ o	CV	0
-wɔ	w ɔ	CV	0
-^ʥ	ʥ	C	0
-kɔ̃	k ɔ̃	CV	0
-³³pʰ	³³ + pʰ	TC	0
-ʃu	ʃ u	CV	0
-^ɕʰ	ɕʰ	C	0
-ɤ̃⁵⁵	ɤ̃ ⁵⁵	VT	0
-jɯ̃	j ɯ̃	CV	0
-õ³¹	õ ³¹	VT	0
-³¹n	³¹ + n	TC	0
-ŋɔ	ŋ ɔ	CV	0
-e³²	e ³²	VT	0
-³⁵w	³⁵ + w	TC	0
-⁵⁵z	⁵⁵ + z	TC	0
-kʲe	kʲ e	CV	0
-le	l e	CV	0
-xɯ̃	x ɯ̃	CV	0
-³¹w	³¹ + w	TC	0
-ũẽ	w ẽ	VV	0
-⁴²j	⁴² + j	TC	0
-⁴⁴l	⁴⁴ + l	TC	0
-⁴⁴kʰ	⁴⁴ + kʰ	TC	0
-ɣɔ	ɣ ɔ	CV	0
-ʂɛ	ʂ ɛ	CV	0
-ʂe	ʂ e	CV	0
-³³w	³³ + w	TC	0
-õ⁴²	õ ⁴²	VT	0
-ʔẽ	ʔ ẽ	CV	0
-ɕɯ̃	ɕ ɯ̃	CV	0
-jɔ̃	j ɔ̃	CV	0
-jã	j ã	CV	0
-ʅ³³	ʅ ³³	VT	0
-pu	p u	CV	0
-vɛ	v ɛ	CV	0
-tʰɔ	tʰ ɔ	CV	0
-mæ	m æ	CV	0
-³⁵kʰ	³⁵ + kʰ	TC	0
-ɕʰo	ɕʰ o	CV	0
-zɤ	z ɤ	CV	0
-pẽ	p ẽ	CV	0
-⁴⁴s	⁴⁴ + s	TC	0
-kʰɛ	kʰ ɛ	CV	0
-ɤ³²	ɤ ³²	VT	0
-^ʈʰ	ʈʰ	C	0
-³¹v	³¹ + v	TC	0
-ɯ̃⁴⁴	ɯ̃ ⁴⁴	VT	0
-æ⁴²	æ ⁴²	VT	0
-ɲa	ɲ a	CV	0
-^ɛ	ɛ	V	0
-⁴⁴ɲ	⁴⁴ + ɲ	TC	0
-ɯ³²	ɯ ³²	VT	0
-ʊ³³	ʊ ³³	VT	0
-³³ŋ	³³ + ŋ	TC	0
-^ɤ̃	ɤ̃	V	0
-²¹f	²¹ + f	TC	0
-tõ	t õ	CV	0
-æ̃⁴²	æ̃ ⁴²	VT	0
-³³kʲ	³³ + kʲ	TC	0
-ʐa	ʐ a	CV	0
-jõ	j õ	CV	0
-³³)	³³	T0	0
-ɔ̃u	ɔ̃u	VV	0
-ɤ̃²¹	ɤ̃ ²¹	VT	0
-sæ̃	s æ̃	CV	0
-ʂʅ	ʂ ʅ	CV	0
-æ⁵⁵	æ ⁵⁵	VT	0
-da	d a	CV	0
-tũ	t ũ	CV	0
-^c	c	C	0
-ju	j u	CV	0
-ãõ	ão	VV	0
-mã	m ã	CV	0
-ɕʰã	ɕʰ ã	CV	0
-ʐɯ	ʐ ɯ	CV	0
-sʰã	sʰ ã	CV	0
-ĩ³⁵	ĩ ³⁵	VT	0
-pã	p ã	CV	0
-ʔɯ	ʔ ɯ	CV	0
-^ã	ã	V	0
-kẽ	k ẽ	CV	0
-fe	f e	CV	0
-kʰe	kʰ e	CV	0
-ɕʰy	ɕʰ y	CV	0
-sʰũ	sʰ ũ	CV	0
-²¹n	²¹ + n	TC	0
-lɤ	l ɤ	CV	0
-³⁵ɕ	³⁵ + ɕ	TC	0
-³³l	³³ + l	TC	0
-⁴⁴w	⁴⁴ + w	TC	0
-³¹l	³¹ + l	TC	0
-⁴⁴x	⁴⁴ + x	TC	0
-yɛ	ɥ ɛ	VV	0
-³¹q	³¹ + q	TC	0
-ɤ̃³¹	ɤ̃ ³¹	VT	0
-ʈɯ	ʈ ɯ	CV	0
-kõ	k õ	CV	0
-ɔ̃⁴⁴	ɔ̃ ⁴⁴	VT	0
-^y	y	V	0
-⁴²pʰ	⁴² + pʰ	TC	0
-⁴⁴n	⁴⁴ + n	TC	0
-²¹kʲ	²¹ + kʲ	TC	0
-³¹f	³¹ + f	TC	0
-^ɴ	ɴ	C	0
-ʂæ	ʂ æ	CV	0
-zo	z o	CV	0
-ẽ²¹	ẽ ²¹	VT	0
-æ²¹	æ ²¹	VT	0
-ỹ⁵⁵	ỹ ⁵⁵	VT	0
-tʰo	tʰ o	CV	0
-(t	t	0C	0
-⁵⁵ʐ	⁵⁵ + ʐ	TC	0
-⁵⁵tʰ	⁵⁵ + tʰ	TC	0
-ɔ³²	ɔ ³²	VT	0
-a³²	a ³²	VT	0
-^ɴ̣	ɴ̩	C	0
-jy	j y	CV	0
-ẽ³⁵	ẽ ³⁵	VT	0
-vɯ	v ɯ	CV	0
-mĩ	m ĩ	CV	0
-ʧu	ʧ u	CV	0
-^o	o	V	0
-³¹ɕ	³¹ + ɕ	TC	0
-³¹ŋ	³¹ + ŋ	TC	0
-⁴²x	⁴² + x	TC	0
-²¹j	²¹ + j	TC	0
-²¹ɲ	²¹ + ɲ	TC	0
-³³d	³³ + d	TC	0
-pʰo	pʰ o	CV	0
-dʐ	ɖʐ	CC	0
-^dʐ	ɖʐ	CC	0
-y³¹	y ³¹	VT	0
-sʰɯ̃	sʰ ɯ̃	CV	0
-ɕỹ	ɕ ỹ	CV	0
-ʥy	ʥ y	CV	0
-tʰɔ̃	tʰ ɔ̃	CV	0
-ʐɛ	ʐ ɛ	CV	0
-ʔ⁵⁵	ʔ ⁵⁵	CT	0
-⁵⁵q	⁵⁵ + q	TC	0
-ɲõ	ɲ õ	CV	0
-³¹j	³¹ + j	TC	0
-mɔ̃	m ɔ̃	CV	0
-³³tʰ	³³ + tʰ	TC	0
-^ũ	ũ	V	0
-ɖɯ	ɖ ɯ	CV	0
-mẽ	m ẽ	CV	0
-ɕʰỹ	ɕʰ ỹ	CV	0
-æ̃⁵⁵	æ̃ ⁵⁵	VT	0
-⁴⁴)	⁴⁴	T0	0
-qã	q ã	CV	0
-ɴ̣³³	ɴ̩ ³³	CT	0
-^ʑ	ʑ	C	0
-ʑi	ʑ i	CV	0
-ɕʊ	ɕ ʊ	CV	0
-³¹tʰ	³¹ + tʰ	TC	0
-pɛ̃	p ɛ̃	CV	0
-ʂʰɛ	ʂʰ ɛ	CV	0
-tĩ	t ĩ	CV	0
-no	n o	CV	0
-tʰe	tʰ e	CV	0
-³³q	³³ + q	TC	0
-⁵⁵(	⁵⁵	T0	0
-tɔ̃	t ɔ̃	CV	0
-ve	v e	CV	0
-⁴⁴ɣ	⁴⁴ + ɣ	TC	0
-⁵⁵f	⁵⁵ + f	TC	0
-⁵⁵ŋ	⁵⁵ + ŋ	TC	0
-ɲo	ɲ o	CV	0
-^ʧ	ʧ	C	0
-⁵⁵ɯ	⁵⁵ + ɯ	TV	0
-³⁵ŋ	³⁵ + ŋ	TC	0
-xũ	x ũ	CV	0
-ʈa	ʈ a	CV	0
-⁴⁴v	⁴⁴ + v	TC	0
-ɲɯ	ɲ ɯ	CV	0
-ɯ̃²¹	ɯ̃ ²¹	VT	0
-⁴²l	⁴² + l	TC	0
-³⁵z	³⁵ + z	TC	0
-qʰa	qʰ a	CV	0
-³²t	³² + t	TC	0
-²¹l	²¹ + l	TC	0
-^e	e	V	0
-^ʁ	ʁ	C	0
-ʁɔ	ʁ ɔ	CV	0
-ʂɛ̃	ʂ ɛ̃	CV	0
-^χ	χ	C	0
-χu	χ u	CV	0
-²¹kʰ	²¹ + kʰ	TC	0
-⁴²f	⁴² + f	TC	0
-³³(	³³	T0	0
-qɔ̃	q ɔ̃	CV	0
-³⁵ɲ	³⁵ + ɲ	TC	0
-jɤ̃	j ɤ̃	CV	0
-nɛ̃	n ɛ̃	CV	0
-³³x	³³ + x	TC	0
-bɔ	b ɔ	CV	0
-xʰɔ	xʰ ɔ	CV	0
-ɔ̃³⁵	ɔ̃ ³⁵	VT	0
-ʐʅ	ʐ ʅ	CV	0
-⁴⁴(	⁴⁴	T0	0
-(pʰ	pʰ	0C	0
-⁵⁵)	⁵⁵	T0	0
-ca	c a	CV	0
-^ɖ	ɖ	C	0
-ɕʰɯ	ɕʰ ɯ	CV	0
-ĩ⁴²	ĩ ⁴²	VT	0
-⁴⁴tʰ	⁴⁴ + tʰ	TC	0
-⁵⁵ɤ	⁵⁵ + ɤ	TV	0
-qɔ	q ɔ	CV	0
-xʰɛ	xʰ ɛ	CV	0
-bɛ̃	b ɛ̃	CV	0
-ʂu	ʂ u	CV	0
-zɛ	z ɛ	CV	0
-zɛ̃	z ɛ̃	CV	0
-ũ²¹	ũ ²¹	VT	0
-ẽ³¹	ẽ ³¹	VT	0
-ɕʰɔ	ɕʰ ɔ	CV	0
-wɔ̃	w ɔ̃	CV	0
-^g	g	C	0
-kʲʰi	kʲʰ i	CV	0
-ɲɛ	ɲ ɛ	CV	0
-pʰɛ̃	pʰ ɛ̃	CV	0
-^kʲʰ	kʲʰ	C	0
-⁴²kʲ	⁴² + kʲ	TC	0
-^ɯ̃	ɯ̃	V	0
-fɯ̃	f ɯ̃	CV	0
-fɛ̃	f ɛ̃	CV	0
-ɤ̃⁴²	ɤ̃ ⁴²	VT	0
-ɴɔ	ɴ ɔ	CV	0
-⁴²ɣ	⁴² + ɣ	TC	0
-di	d i	CV	0
-si	s i	CV	0
-ɲɔ	ɲ ɔ	CV	0
-qʰɤ	qʰ ɤ	CV	0
-⁴⁴ŋ	⁴⁴ + ŋ	TC	0
-pæ	p æ	CV	0
-kɯ̃	k ɯ̃	CV	0
-ŋo	ŋ o	CV	0
-zu	z u	CV	0
-ʔa	ʔ a	CV	0
-va	v a	CV	0
-^i	i	V	0
-sʰɤ	sʰ ɤ	CV	0
-mɤ	m ɤ	CV	0
-xʰẽ	xʰ ẽ	CV	0
-³¹z	³¹ + z	TC	0
-χa	χ a	CV	0
-^cʰ	cʰ	C	0
-⁵⁵d	⁵⁵ + d	TC	0
-ʧʰʊ	ʧʰ ʊ	CV	0
-ʊ⁴⁴	ʊ ⁴⁴	VT	0
-⁵⁵qʰ	⁵⁵ + qʰ	TC	0
-õu	õu	VV	0
-ỹ³³	ỹ ³³	VT	0
-qʰu	qʰ u	CV	0
-⁵⁵ʈ	⁵⁵ + ʈ	TC	0
-o³²	o ³²	VT	0
-²¹w	²¹ + w	TC	0
-wɛ̃	w ɛ̃	CV	0
-kʰɔ̃	kʰ ɔ̃	CV	0
-⁴⁴q	⁴⁴ + q	TC	0
-qo	q o	CV	0
-⁴²tʰ	⁴² + tʰ	TC	0
-ʈɛ	ʈ ɛ	CV	0
-⁴²ŋ	⁴² + ŋ	TC	0
-(kʰ	kʰ	0C	0
-ʈõ	ʈ õ	CV	0
-ɣã	ɣ ã	CV	0
-æ³³	æ ³³	VT	0
-³¹ɲ	³¹ + ɲ	TC	0
-ly	l y	CV	0
-cõ	c õ	CV	0
-õ³⁵	õ ³⁵	VT	0
-pɤ	p ɤ	CV	0
-³¹b	³¹ + b	TC	0
-bɯ	b ɯ	CV	0
-ai	ai	VV	0
-³¹ʔ	³¹ + ʔ	TC	0
-ɕʰõ	ɕʰ õ	CV	0
-qẽ	q ẽ	CV	0
-(k	k	0C	0
-vʊ	v ʊ	CV	0
-⁴²ʔ	⁴² + ʔ	TC	0
-ɕɤ	ɕ ɤ	CV	0
-pʰã	pʰ ã	CV	0
-ɔ̃ũ	ɔ̃u	VV	0
-³¹(	³¹	T0	0
-³²m	³² + m	TC	0
-³¹ʂ	³¹ + ʂ	TC	0
-bi	b i	CV	0
-ŋe	ŋ e	CV	0
-qɛ	q ɛ	CV	0
-ʈɯ̃	ʈ ɯ̃	CV	0
-bẽ	b ẽ	CV	0
-⁴²b	⁴² + b	TC	0
-⁵⁵ɴ̥	⁵⁵ + ɴ̥	TC	0
-ɴ̥ɴ̣	ɴ̥ ɴ̩	CC	0
-^(	NULL	NULL	0
-ũɛ̃	w ɛ̃	VV	0
-ʂo	ʂ o	CV	0
-ʔi	ʔ i	CV	0
-ci	c i	CV	0
-qʰo	qʰ o	CV	0
-³⁵ʂ	³⁵ + ʂ	TC	0
-tʰɤ̃	tʰ ɤ̃	CV	0
-tʰɛ̃	tʰ ɛ̃	CV	0
-ɲæ	ɲ æ	CV	0
-tʰã	tʰ ã	CV	0
-³⁵pʰ	³⁵ + pʰ	TC	0
-ʈʰã	ʈʰ ã	CV	0
-õũ	õu	VV	0
-ʊ³¹	ʊ ³¹	VT	0
-³⁵tʰ	³⁵ + tʰ	TC	0
-kʲɛ̃	kʲ ɛ̃	CV	0
-³¹)	³¹	T0	0
-³³ɴ	³³ + ɴ	TC	0
-⁵⁵kʲʰ	⁵⁵ + kʲʰ	TC	0
-ʅ⁴²	ʅ ⁴²	VT	0
-³²ɕ	³² + ɕ	TC	0
-xʰã	xʰ ã	CV	0
-kʲẽ	kʲ ẽ	CV	0
-ʂʰu	ʂʰ u	CV	0
-ʈʰɤ	ʈʰ ɤ	CV	0
-dɔ	d ɔ	CV	0
-ɴã	ɴ ã	CV	0
-za	z a	CV	0
-³²p	³² + p	TC	0
-æ⁴⁴	æ ⁴⁴	VT	0
-kʰẽ	kʰ ẽ	CV	0
-ɕæ	ɕ æ	CV	0
-qɯ	q ɯ	CV	0
-ɯ̃³⁵	ɯ̃ ³⁵	VT	0
-⁵⁵sʰ	⁵⁵ + sʰ	TC	0
-⁵⁵ʃ	⁵⁵ + ʃ	TC	0
-ze	z e	CV	0
-zẽ	z ẽ	CV	0
-ie	j e	VV	0
-tẽ	t ẽ	CV	0
-ɑ⁵⁵	ɑ ⁵⁵	VT	0
-qʰɔ̃	qʰ ɔ̃	CV	0
-ɥɛ	ɥ ɛ	CV	0
-ʥi	ʥ i	CV	0
-³⁵v	³⁵ + v	TC	0
-pæ̃	p æ̃	CV	0
-ʑu	ʑ u	CV	0
-u³²	u ³²	VT	0
-dy	d y	CV	0
-æ̃³¹	æ̃ ³¹	VT	0
-)t	t	0C	0
-ɕʰɯ̃	ɕʰ ɯ̃	CV	0
-nu	n u	CV	0
-fɔ	f ɔ	CV	0
-³¹ɤ̃	³¹ + ɤ̃	TV	0
-‹›	NULL	00	0
-vɔ	v ɔ	CV	0
-⁵⁵a	⁵⁵ + a	TV	0
-^õ	õ	V	0
-ũ⁵⁵	ũ ⁵⁵	VT	0
-fɤ̃	f ɤ̃	CV	0
-³⁵ɣ	³⁵ + ɣ	TC	0
-zɯ̃	z ɯ̃	CV	0
-tɤ̃	t ɤ̃	CV	0
-³³qʰ	³³ + qʰ	TC	0
-⁴⁴d	⁴⁴ + d	TC	0
-zi	z i	CV	0
-ʔo	ʔ o	CV	0
-²¹χ	²¹ + χ	TC	0
-cʰa	cʰ a	CV	0
-ʐʅ̃	ʐ ʅ̃	CV	0
-ʅ̃³³	ʅ̃ ³³	VT	0
-ɕɔ̃	ɕ ɔ̃	CV	0
-dɛ	d ɛ	CV	0
-ʈʊ	ʈ ʊ	CV	0
-ỹ³¹	ỹ ³¹	VT	0
-nɔ̃	n ɔ̃	CV	0
-ʈæ̃	ʈ æ̃	CV	0
-ɕɿ	ɕ ɿ	CV	0
-⁴⁴ʈ	⁴⁴ + ʈ	TC	0
-sy	s y	CV	0
-fo	f o	CV	0
-fʊ	f ʊ	CV	0
-ʊ⁵⁵	ʊ ⁵⁵	VT	0
-ɛʔ	ɛ ʔ	VC	0
-ʐɯ̃	ʐ ɯ̃	CV	0
-æ̃³³	æ̃ ³³	VT	0
-³³ʐ	³³ + ʐ	TC	0
-kɤ̃	k ɤ̃	CV	0
-ʧʰũ	ʧʰ ũ	CV	0
-ɣa	ɣ a	CV	0
-ɴa	ɴ a	CV	0
-⁵⁵ʂ	⁵⁵ + ʂ	TC	0
-y³⁵	y ³⁵	VT	0
-jɤ	j ɤ	CV	0
-xɔ̃	x ɔ̃	CV	0
-⁴⁴c	⁴⁴ + c	TC	0
-⁵⁵b	⁵⁵ + b	TC	0
-ɲʊ̃	ɲ ʊ̃	CV	0
-ʊ̃³³	ʊ̃ ³³	VT	0
-kj	k j	CC	0
-³³ã	³³ + ã	TV	0
-⁴²cʰ	⁴² + cʰ	TC	0
-cʰɤ	cʰ ɤ	CV	0
-ũ⁴⁴	ũ ⁴⁴	VT	0
-ɣu	ɣ u	CV	0
-pɯ̃	p ɯ̃	CV	0
-ẽʔ	ẽ ʔ	VC	0
-⁴⁴kʲ	⁴⁴ + kʲ	TC	0
-ũ⁴²	ũ ⁴²	VT	0
-ty	t y	CV	0
-³¹sʰ	³¹ + sʰ	TC	0
-ʥỹ	ʥ ỹ	CV	0
-ỹ⁴²	ỹ ⁴²	VT	0
-ŋẽ	ŋ ẽ	CV	0
-²¹(	²¹	T0	0
-³³ʈ	³³ + ʈ	TC	0
-sæ	s æ	CV	0
-ʐɤ	ʐ ɤ	CV	0
-²¹b	²¹ + b	TC	0
-³³b	³³ + b	TC	0
-(j	j	0C	0
-)p	p	0C	0
-ʅ⁵⁵	ʅ ⁵⁵	VT	0
-⁵⁵c	⁵⁵ + c	TC	0
-²¹ʂ	²¹ + ʂ	TC	0
-ʊ²¹	ʊ ²¹	VT	0
-tʰʊ	tʰ ʊ	CV	0
-bɛ	b ɛ	CV	0
-(s	s	0C	0
-ʐe	ʐ e	CV	0
-vĩ	v ĩ	CV	0
-sʊ	s ʊ	CV	0
-pʰẽ	pʰ ẽ	CV	0
-³³ʧʰ	³³ + ʧʰ	TC	0
-³¹qʰ	³¹ + qʰ	TC	0
-qʰã	qʰ ã	CV	0
-⁴²qʰ	⁴² + qʰ	TC	0
-qʰɛ̃	qʰ ɛ̃	CV	0
-nĩ	n ĩ	CV	0
-ʂv	ʂ v/ʯ	CC	0
-v³⁵	v ³⁵	CT	0
-³⁵ʧʰ	³⁵ + tʃʰ	TC	0
-ɴõ	ɴ õ	CV	0
-³²kʰ	³² + kʰ	TC	0
-gu	g u	CV	0
-³¹d	³¹ + d	TC	0
-xʰu	xʰ u	CV	0
-fi	f i	CV	0
-cʰã	cʰ ã	CV	0
-³³v	³³ + v	TC	0
-⁴⁴ɤ	⁴⁴ + ɤ	TV	0
-⁴²v	⁴² + v	TC	0
-ʐɛ̃	ʐ ɛ̃	CV	0
-ʂæ̃	ʂ æ̃	CV	0
-ɕʰẽ	ɕʰ ẽ	CV	0
-ɕʰe	ɕʰ e	CV	0
-ʔe	ʔ e	CV	0
-ɕʰɔ̃	ɕʰ ɔ̃	CV	0
-dɯ̃	d ɯ̃	CV	0
-^ẽ	ẽ	V	0
-⁴²(	⁴²	T0	0
-(tʰ	tʰ	0C	0
-⁴²)	⁴²	T0	0
-nẽ	n ẽ	CV	0
-qʰæ	qʰ æ	CV	0
-cã	c ã	CV	0
-ɕɑ	ɕ ɑ	CV	0
-ɑ³⁵	ɑ ³⁵	VT	0
-⁵⁵ɕʰ	⁵⁵ + ɕʰ	TC	0
-³¹pʰ	³¹ + pʰ	TC	0
-⁴²ʂ	⁴² + ʂ	TC	0
-⁴²sʰ	⁴² + sʰ	TC	0
-³²s	³² + s	TC	0
-kʲʰe	kʲʰ e	CV	0
-qʰẽ	qʰ ẽ	CV	0
-pʰæ	pʰ æ	CV	0
-ɴ̣³¹	ɴ̩ ³¹	CT	0
-ɲũ	ɲ ũ	CV	0
-ɕʰũ	ɕʰ ũ	CV	0
-ʂʰe	ʂʰ e	CV	0
-sʰɔ̃	sʰ ɔ̃	CV	0
-ʈʰu	ʈʰ u	CV	0
-qʰɯ̃	qʰ ɯ̃	CV	0
-ɖẽ	ɖ ẽ	CV	0
-ɲĩ	ɲ ĩ	CV	0
-qʰɛ	qʰ ɛ	CV	0
-ʂʰʅ	ʂʰ ʅ	CV	0
-⁴²ʐ	⁴² + ʐ	TC	0
-xæ̃	x æ̃	CV	0
-æ̃³⁵	æ̃ ³⁵	VT	0
-³⁵ʐ	³⁵ + ʐ	TC	0
-ʐæ	ʐ æ	CV	0
-⁴²q	⁴² + q	TC	0
-⁵⁵χ	⁵⁵ + χ	TC	0
-²¹x	²¹ + x	TC	0
-tʰɯ̃	tʰ ɯ̃	CV	0
-xɑ	x ɑ	CV	0
-pʰe	pʰ e	CV	0
-⁴⁴ɥ	⁴⁴ + ɥ	TC	0
-tɛ̃	t ɛ̃	CV	0
-³³f	³³ + f	TC	0
-⁴²ɕ	⁴² + ɕ	TC	0
-³²x	³² + x	TC	0
-³⁵d	³⁵ + d	TC	0
-sʰɿ̃	sʰ ɿ̃	CV	0
-ɿ̃⁵⁵	ɿ̃ ⁵⁵	VT	0
-ʂʰɛ̃	ʂʰ ɛ̃	CV	0
-qɯ̃	q ɯ̃	CV	0
-uẽ	w ẽ	VV	0
-⁵⁵o	⁵⁵ + o	TV	0
-zã	z ã	CV	0
-zɔ̃	z ɔ̃	CV	0
-ʥɔ̃	ʥ ɔ̃	CV	0
-gɤ	g ɤ	CV	0
-ʈʰa	ʈʰ a	CV	0
-wæ̃	w æ̃	CV	0
-ʈʰɯ	ʈʰ ɯ	CV	0
-(a	a	0V	0
-⁴²ɲ	⁴² + ɲ	TC	0
-gɯ̃	g ɯ̃	CV	0
-ʈɔ	ʈ ɔ	CV	0
-kʲʰɛ	kʲʰ ɛ	CV	0
-⁵⁵ʑ	⁵⁵ + ʑ	TC	0
-⁵⁵ɤ̃	⁵⁵ + ɤ̃	TV	0
-sʰẽ	sʰ ẽ	CV	0
-sʰõ	sʰ õ	CV	0
-ũ³¹	ũ ³¹	VT	0
-næ̃	n æ̃	CV	0
-y²¹	y ²¹	VT	0
-ye	ɥ e	VV	0
-^ʰɯ	ʰɯ	V	0
-ʰɯ⁵⁵	ʰɯ ⁵⁵	VT	0
-lã	l ã	CV	0
-²¹ɕ	²¹ + ɕ	TC	0
-³¹g	³¹ + g	TC	0
-gɛ	g ɛ	CV	0
-ɣũ	ɣ ũ	CV	0
-ũ³³	ũ ³³	VT	0
-wõ	w õ	CV	0
-ŋɤ̃	ŋ ɤ̃	CV	0
-ŋɯ̃	ŋ ɯ̃	CV	0
-²¹‹	²¹ ‹	T0	0
-›j	› j	0C	0
-ʂʰɤ	ʂʰ ɤ	CV	0
-qʰɔ	qʰ ɔ	CV	0
-kʰõ	kʰ õ	CV	0
-kʰã	kʰ ã	CV	0
-kʰɤ̃	kʰ ɤ̃	CV	0
-ŋɔ̃	ŋ ɔ̃	CV	0
-ŋã	ŋ ã	CV	0
-ĩʔ	ĩ ʔ	VC	0
-ɣõ	ɣ õ	CV	0
-^ɑ	ɑ	V	0
-⁴⁴ṃ	⁴⁴ + ṃ	TC	0
-ṃ⁴⁴	ṃ ⁴⁴	CT	0
-²¹i	²¹ + i	TV	0
-⁵⁵xʰ	⁵⁵ + xʰ	TC	0
-xʰa	xʰ a	CV	0
-³⁵c	³⁵ + c	TC	0
-cɤ	c ɤ	CV	0
-⁵⁵‹	⁵⁵ ‹	T0	0
-›t	› t	0C	0
-⁴⁴ʑ	⁴⁴ + ʑ	TC	0
-³⁵sʰ	³⁵ + sʰ	TC	0
-vɤ̃	v ɤ̃	CV	0
-vã	v ã	CV	0
-^ɥ	ɥ	C	0
-qʰõ	qʰ õ	CV	0
-nɤ̃	n ɤ̃	CV	0
-^ɔ̃	ɔ̃	V	0
-⁴²ʃ	⁴² + ʃ	TC	0
-⁴⁴ʂ	⁴⁴ + ʂ	TC	0
-qɛ̃	q ɛ̃	CV	0
-⁴⁴u	⁴⁴ + u	TV	0
-⁴⁴ɔ	⁴⁴ + ɔ	TV	0
-³³u	³³ + u	TV	0
-⁴⁴ɛ	⁴⁴ + ɛ	TV	0
-⁵⁵ʧ	⁵⁵ + ʧ	TC	0
-⁵⁵tʂʰɛ	⁵⁵ + ʈʂʰ ɛ
-³³tʂʰ	³³ + ʈʂʰ
-^ʂʅ³³tʂʰʅ³³$	ʂ ʅ ³³ + ʈʂʰ ʅ ³³	
-^ma⁵⁵tʂʰɛ⁵⁵$	m a ⁵⁵ + ʈʂʰ ɛ ⁵⁵						
-ɣɛ	ɣ ɛ	CV	0
-³⁵kʲ	³⁵ + kʲ	TC	0
-⁴⁴ɔ̃	⁴⁴ + ɔ̃	TV	0
-ʔõ	ʔ õ	CV	0
-ɴ̣³⁵	ɴ̩ ³⁵	CT	0
-ɴ̣⁵⁵	ɴ̩ ⁵⁵	CT	0
-⁵⁵ɔ̃	⁵⁵ + ɔ̃	TV	0
-³³ʃ	³³ + ʃ	TC	0
-mõ	m õ	CV	0
-æ³¹	æ ³¹	VT	0
-³³z	³³ + z	TC	0
-lũ	l ũ	CV	0
-qõ	q õ	CV	0
-^ṽ	ṽ	C	0
-ṽ³³	ṽ ³³	CT	0
-mæ̃	m æ̃	CV	0
-ʐu	ʐ u	CV	0
-³¹ɖ	³¹ + ɖ	TC	0
-⁵⁵ɖ	⁵⁵ + ɖ	TC	0
-ɯ̃ʔ	ɯ̃ ʔ	VC	0
-$	NULL	NULL	0
-^	NULL	NULL	0
+Grapheme	IPA
+$	NULL
+(	NULL
+)	NULL
+^	NULL
+^(	NULL
+^a	a
+^ao	ao
+^b	b
+^c	c
+^cʰ	cʰ
+^d	d
+^dz	dz
+^dʐ	ɖʐ
+^e	e
+^f	f
+^g	g
+^i	i
+^j	j
+^k	k
+^kʰ	kʰ
+^kʲ	kʲ
+^kʲʰ	kʲʰ
+^l	l
+^m	m
+^ma⁵⁵tʂʰɛ⁵⁵$	m a ⁵⁵ + ʈʂʰ ɛ ⁵⁵
+^n	n
+^o	o
+^ou	ou
+^p	p
+^pʰ	pʰ
+^q	q
+^qʰ	qʰ
+^s	s
+^sʰ	sʰ
+^t	t
+^ts	ts
+^tsʰ	tsʰ
+^tɕ	tɕ
+^tɕʰ	tɕʰ
+^tʂ	ʈʂ
+^tʂʰ	ʈʂʰ
+^tʰ	tʰ
+^u	u
+^v	v
+^w	w
+^wa	w a
+^we	w e
+^wu	w u
+^wã	w ã
+^wæ̃	w æ̃
+^wõ	w õ
+^wɔ	w ɔ
+^wɔ̃	w ɔ̃
+^wɛ	w ɛ
+^wɛ̃	w ɛ̃
+^wẽ	w ẽ
+^x	x
+^xʰ	xʰ
+^y	y
+^z	z
+^ã	ã
+^õ	õ
+^ŋ	ŋ
+^ũ	ũ
+^ɑ	ɑ
+^ɔ	ɔ
+^ɔ̃	ɔ̃
+^ɕ	ɕ
+^ɕʰ	ɕʰ
+^ɖ	ɖ
+^ɛ	ɛ
+^ɣ	ɣ
+^ɤ	ɤ
+^ɤ̃	ɤ̃
+^ɥ	ɥ
+^ɯ	ɯ
+^ɯ̃	ɯ̃
+^ɲ	ɲ
+^ɴ	ɴ
+^ɴ̣	ɴ̩
+^ʁ	ʁ
+^ʂ	ʂ
+^ʂʅ³³tʂʰʅ³³$	ʂ ʅ ³³ + ʈʂʰ ʅ ³³
+^ʃ	ʃ
+^ʈ	ʈ
+^ʈʰ	ʈʰ
+^ʐ	ʐ
+^ʑ	ʑ
+^ʔ	ʔ
+^ʥ	dʑ
+^ʧ	tʃ
+^ʧʰ	tʃʰ
+^ʰɯ	ʰ/sʰ ɯ
+^χ	χ
+^ṽ	ṽ
+^ẽ	ẽ
+a	a
+ai	ai
+ao	ao
+b	b
+c	c
+cʰ	cʰ
+d	d
+dz	dz
+dʐ	ɖʐ
+e	e
+f	f
+g	g
+i	i
+ia	j a
+ie	j e
+iɔ	j ɔ
+iɛ	j ɛ
+iɯ	j ɯ
+j	j
+k	k
+kʰ	kʰ
+kʲ	kʲ
+kʲʰ	kʲʰ
+kʲẽ	kʲ ẽ
+kẽ	k ẽ
+l	l
+m	m
+ma⁵⁵tʂʰɛ⁵⁵$	m a ⁵⁵ + ʈʂʰ ɛ ⁵⁵
+n	n
+o	o
+ou	ou
+p	p
+pʰ	pʰ
+q	q
+qʰ	qʰ
+s	s
+sʰ	sʰ
+t	t
+ts	ts
+tsʰ	tsʰ
+tɕ	tɕ
+tɕʰ	tɕʰ
+tʂ	ʈʂ
+tʂʰ	ʈʂʰ
+tʰ	tʰ
+u	u
+ua	w a
+ue	w e
+uɔ	w ɔ
+uɛ	w ɛ
+uẽ	w ẽ
+v	v
+w	w
+wa	w a
+we	w e
+wu	w u
+wã	w ã
+wæ̃	w æ̃
+wõ	w õ
+wɔ	w ɔ
+wɔ̃	w ɔ̃
+wɛ	w ɛ
+wɛ̃	w ɛ̃
+wẽ	w ẽ
+x	x
+xʰ	xʰ
+y	y
+ye	ɥ e
+yɛ	ɥ ɛ
+z	z
+²¹	²¹ +
+²¹$	²¹
+³²	³² +
+³²$	³²
+³³	³³ +
+³³$	³³
+³¹	³¹ +
+³¹$	³¹
+³⁵	³⁵ +
+³⁵$	³⁵
+ã	ã
+ãõ	ão
+æ	æ
+æ̃	æ̃
+õ	õ
+õu	õu
+õũ	õu
+ĩ	ĩ
+ĩɛ̃	j ɛ̃
+ĩʔ	ĩʔ/ĩ
+ŋ	ŋ
+ũ	ũ
+ũã	ũ/w ã
+ũɔ̃	w ɔ̃
+ũɛ̃	w ɛ̃
+ũẽ	w ẽ
+ɑ	ɑ
+ɔ	ɔ
+ɔu	ɔu
+ɔ̃	ɔ̃
+ɔ̃u	ɔ̃u
+ɔ̃²¹	ɔ̃
+ɔ̃³³	ɔ̃
+ɔ̃³¹	ɔ̃
+ɔ̃³⁵	ɔ̃
+ɔ̃ũ	ɔ̃u
+ɕ	ɕ
+ɕʰ	ɕʰ
+ɖ	ɖ
+ɛ	ɛ
+ɛʔ	ɛʔ/ɛ
+ɛ̃	ɛ̃
+ɣ	ɣ
+ɤ	ɤ
+ɤ̃	ɤ̃
+ɥ	ɥ
+ɥɛ	ɥ ɛ
+ɯ	ɯ
+ɯ̃	ɯ̃
+ɯ̃ʔ	ɯ̃ ʔ
+ɲ	ɲ
+ɴ	ɴ
+ɴ̣	ɴ̩
+ɴ̥	ɴ̥
+ɿ	ɿ
+ɿ̃	ɿ̃
+ʁ	ʁ
+ʁɔ	ʁ ɔ
+ʂ	ʂ
+ʂʅ³³tʂʰʅ³³$	ʂ ʅ ³³ + ʈʂʰ ʅ ³³
+ʂʰ	ʂʰ
+ʃ	ʃ
+ʅ	ʅ
+ʅ̃	ʅ̃
+ʈ	ʈ
+ʈʰ	ʈʰ
+ʊ	ʊ
+ʊ̃	ʊ̃
+ʐ	ʐ
+ʑ	ʑ
+ʔ	ʔ
+ʥ	dʑ
+ʧ	tʃ
+ʧʰ	tʃʰ
+ʰɯ	ʰ/sʰ ɯ
+χ	χ
+ṃ	m̩
+ṽ	ṽ
+ẽ	ẽ
+ỹ	ỹ
+‹›	NULL
+›	NULL
+⁴²	⁴² +
+⁴²$	⁴²
+⁴⁴	⁴⁴ +
+⁴⁴$	⁴⁴
+⁵⁵	⁵⁵ +
+⁵⁵$	⁵⁵
