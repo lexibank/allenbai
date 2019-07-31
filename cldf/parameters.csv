@@ -50,13 +50,13 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Chinese
 49,sheep,1331,SHEEP,绵羊
 50,dog,2009,DOG,狗
 51,cat,1208,CAT,猫
-52,"hare,rabbit",1136,RABBIT,兔
+52,"hare,rabbit",2345,LEPORID (RABBIT OR HARE),兔
 53,dragon,2038,DRAGON,龙
 54,tiger,846,TIGER,虎
 55,bear,1820,BEAR,熊
 56,monkey,1350,MONKEY,猴子
 57,wolf,522,WOLF,狼
-58,mouse,1491,MOUSE,老鼠
+58,mouse,2139,MUROID (MOUSE OR RAT) ,老鼠
 59,chicken,1318,CHICKEN,鸡
 60,turtledove,1853,DOVE,斑鸠
 61,bird,937,BIRD,鸟
