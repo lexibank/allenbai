@@ -19,6 +19,7 @@ class HLanguage(Language):
     ChineseName = attr.ib(default=None)
     SubGroup = attr.ib(default=None)
     Family = attr.ib(default=None)
+    DialectGroup = attr.ib(default=None)
 
 class Dataset(BaseDataset):
     dir = Path(__file__).parent
@@ -29,7 +30,7 @@ class Dataset(BaseDataset):
     def clean_form(self, row, form):
         form = self.lexemes.get(form.strip(), form.strip())
 
-        if form not in "---":
+        if form not in ["---"]:
             return form
 
     def cmd_download(self, **kw):
@@ -43,20 +44,8 @@ class Dataset(BaseDataset):
             concept2id = {c.english: c.number for c in self.conceptlist.concepts.values()}
             ds.add_languages(id_factory=lambda l: l["Name"])
 
-            langs = {}
-            for language in self.languages:
-                ds.add_language(
-                        ID=language['ID'],
-                        Glottocode=language["Glottocode"],
-                        Name=language["Name"],
-                        Latitude=language['Latitude'],
-                        Longitude=language['Longitude'],
-                        SubGroup=language['SubGroup'],
-                        ChineseName=language['ChineseName'],
-                        Family='Sino-Tibetan'
-                    )
-                langs[language["Name"]] = language['ID']
-
+            langs = {k['Name']: k['ID'] for k in self.languages}
+            ds.add_languages()
 
             ds.add_sources()
             for k in pb(wl, desc="wl-to-cldf"):
