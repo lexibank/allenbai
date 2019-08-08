@@ -17,8 +17,8 @@ class HLanguage(Language):
     Latitude = attr.ib(default=None)
     Longitude = attr.ib(default=None)
     ChineseName = attr.ib(default=None)
-    SubGroup = attr.ib(default=None)
-    Family = attr.ib(default=None)
+    SubGroup = attr.ib(default='Bai')
+    Family = attr.ib(default='Sino-Tibetan')
     DialectGroup = attr.ib(default=None)
 
 class Dataset(BaseDataset):

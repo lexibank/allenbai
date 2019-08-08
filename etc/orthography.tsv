@@ -108,11 +108,11 @@ e	e
 f	f
 g	g
 i	i
-ia	j a
-ie	j e
-iɔ	j ɔ
-iɛ	j ɛ
-iɯ	j ɯ
+ia	i/j a
+ie	i/j e
+iɔ	i/j ɔ
+iɛ	i/j ɛ
+iɯ	i/j ɯ
 j	j
 k	k
 kʰ	kʰ
@@ -141,11 +141,11 @@ tʂ	ʈʂ
 tʂʰ	ʈʂʰ
 tʰ	tʰ
 u	u
-ua	w a
-ue	w e
-uɔ	w ɔ
-uɛ	w ɛ
-uẽ	w ẽ
+ua	u/w a
+ue	u/w e
+uɔ	u/w ɔ
+uɛ	u/w ɛ
+uẽ	u/w ẽ
 v	v
 w	w
 wa	w a
@@ -162,8 +162,10 @@ wẽ	w ẽ
 x	x
 xʰ	xʰ
 y	y
-ye	ɥ e
-yɛ	ɥ ɛ
+^ye	y/ɥ e
+^yɛ	y/ɥ ɛ
+ye	y/ɥ e
+yɛ	y/ɥ ɛ
 z	z
 ²¹	²¹ +
 ²¹$	²¹
