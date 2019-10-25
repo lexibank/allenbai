@@ -6,9 +6,9 @@ Cite the source dataset as
 
 Available online at http://www.sil.org/resources/publications/entry/9121
 
-Conceptlists in Concepticon:
-- [Allen-2007-500](http://concepticon.clld.org/contributions/Allen-2007-500)
 
+Conceptlists in Concepticon:
+- [Allen-2007-500](https://concepticon.clld.org/contributions/Allen-2007-500)
 ## Notes
 
 This dataset comprises 9 varieties of Bai, a Sino-Tibetan language whose origin is still vividly discussed among scholars. We have slightly modified the IPA representation and added morphological segmentation markers to the data as well.
@@ -31,6 +31,6 @@ This dataset comprises 9 varieties of Bai, a Sino-Tibetan language whose origin 
 - **Sources:** 1
 - **Synonymy:** 1.01
 - **Invalid lexemes:** 0
-- **Tokens:** 21,976
-- **Segments:** 110 (0 BIPA errors, 0 CTLS sound class errors, 109 CLTS modified)
-- **Inventory size (avg):** 59.44
+- **Tokens:** 21,931
+- **Segments:** 111 (0 BIPA errors, 0 CTLS sound class errors, 110 CLTS modified)
+- **Inventory size (avg):** 59.56

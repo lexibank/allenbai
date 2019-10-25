@@ -1,16 +1,18 @@
 import attr
-import lingpy
-from clldutils.misc import lazyproperty
-from clldutils.path import Path
-from lingpy.sequence.sound_classes import clean_string, syllabify
-from pylexibank.dataset import Concept, Language
+from pathlib import Path
+
+from pylexibank import Concept, Language
 from pylexibank.dataset import Dataset as BaseDataset
 from pylexibank.util import pb, getEvoBibAsBibtex
+
+import lingpy
+from clldutils.misc import slug
 
 
 @attr.s
 class BaidialConcept(Concept):
-    Chinese = attr.ib(default=None)
+    Chinese_Gloss = attr.ib(default=None)
+    Number = attr.ib(default=None)
 
 @attr.s
 class HLanguage(Language):
@@ -27,32 +29,35 @@ class Dataset(BaseDataset):
     concept_class = BaidialConcept
     language_class = HLanguage
 
-    def clean_form(self, row, form):
-        form = self.lexemes.get(form.strip(), form.strip())
-
-        if form not in ["---"]:
-            return form
 
     def cmd_download(self, **kw):
-        self.raw.write("sources.bib", getEvoBibAsBibtex("Allen2007", **kw))
+        self.raw_dir.write("sources.bib", getEvoBibAsBibtex("Allen2007", **kw))
 
-    def cmd_install(self, **kw):
-        wl = lingpy.Wordlist(self.raw.posix("Bai-Dialect-Survey.tsv"))
+    def cmd_makecldf(self, args):
+        wl = lingpy.Wordlist(self.raw_dir.joinpath("Bai-Dialect-Survey.tsv").as_posix())
+        args.writer.add_sources()
 
-        with self.cldf as ds:
-            ds.add_concepts(id_factory=lambda c: c.number)
-            concept2id = {c.english: c.number for c in self.conceptlist.concepts.values()}
-            ds.add_languages(id_factory=lambda l: l["Name"])
-
-            langs = {k['Name']: k['ID'] for k in self.languages}
-            ds.add_languages()
-
-            ds.add_sources()
-            for k in pb(wl, desc="wl-to-cldf"):
-                if wl[k, "value"]:
-                    ds.add_lexemes(
-                        Language_ID=langs[wl[k, "doculect"]],
-                        Parameter_ID=concept2id[wl[k, "concept"]],
-                        Value=wl[k, "value"],
-                        Source="Allen2007",
+        # TODO: add concepts with `add_concepts`
+        concept_lookup = {}
+        for concept in self.conceptlist.concepts.values():
+            idx = concept.id.split('-')[-1]+'_'+slug(concept.english)
+            args.writer.add_concept(
+                    ID=idx,
+                    Name=concept.gloss,
+                    Chinese_Gloss=concept.attributes['chinese'],
+                    Number=concept.number,
+                    Concepticon_ID=concept.concepticon_id,
+                    Concepticon_Gloss=concept.concepticon_gloss
                     )
+            concept_lookup[concept.english] = idx
+        language_lookup = args.writer.add_languages(lookup_factory="Name")
+
+
+        for k in pb(wl, desc="wl-to-cldf"):
+            if wl[k, "value"]:
+                args.writer.add_lexemes(
+                    Language_ID=language_lookup[wl[k, "doculect"]],
+                    Parameter_ID=concept_lookup[wl[k, "concept"]],
+                    Value=wl[k, "value"],
+                    Source="Allen2007",
+                )
