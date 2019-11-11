@@ -10,12 +10,12 @@ from clldutils.misc import slug
 
 
 @attr.s
-class BaidialConcept(Concept):
+class CustomConcept(Concept):
     Chinese_Gloss = attr.ib(default=None)
     Number = attr.ib(default=None)
 
 @attr.s
-class HLanguage(Language):
+class CustomLanguage(Language):
     Latitude = attr.ib(default=None)
     Longitude = attr.ib(default=None)
     ChineseName = attr.ib(default=None)
@@ -26,8 +26,8 @@ class HLanguage(Language):
 class Dataset(BaseDataset):
     dir = Path(__file__).parent
     id = "allenbai"
-    concept_class = BaidialConcept
-    language_class = HLanguage
+    concept_class = CustomConcept
+    language_class = CustomLanguage
 
 
     def cmd_download(self, **kw):
@@ -39,7 +39,7 @@ class Dataset(BaseDataset):
 
         # TODO: add concepts with `add_concepts`
         concept_lookup = {}
-        for concept in self.conceptlist.concepts.values():
+        for concept in self.conceptlists[0].concepts.values():
             idx = concept.id.split('-')[-1]+'_'+slug(concept.english)
             args.writer.add_concept(
                     ID=idx,
