@@ -183,7 +183,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Chinese_Gloss,Number
 182_earring,,770,EARRING,耳环,182
 183_bracelet,,1754,BRACELET,手镯,183
 184_bamboohat,,2160,BAMBOO HAT,斗笠,184
-185_palmbarkraincape,,1662,CAPE,蓑衣,185
+185_palmbarkraincape,,3540,STRAW RAINCOAT,蓑衣,185
 186_shoe,,1381,SHOE,鞋,186
 187_strawsandal,,2047,STRAW SANDAL,草鞋,187
 188_strawmat,,195,MAT,草席,188
@@ -200,7 +200,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Chinese_Gloss,Number
 199_vegetableoil,,2555,OIL (FROM PLANTS),植物油,199
 200_salt,,1274,SALT,盐,200
 201_meat,,634,MEAT,肉,201
-202_cookedfood,,256,FOOD,菜（熟菜）,202
+202_cookedfood,,3542,PREPARED FOOD,菜（熟菜）,202
 203_soup,,1547,SOUP,汤,203
 204_alcoholdrink,,404,ALCOHOL (FERMENTED DRINK),酒,204
 205_teadrink,,1373,TEA,茶,205
@@ -305,12 +305,12 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Chinese_Gloss,Number
 304_teach,,709,TEACH,教,304
 305_write,,1672,WRITE,写,305
 306_stickglue,,254,STICKING,贴,306
-307_steamyams,,2067,STEAM (VERB),煮（洋芋）,307
-308_stirfry,,991,FRY,炒,308
-309_shallowfry,,2162,STIR FRY,煎,309
-310_braise,,2068,BRAISE (VERB),蒸,310
+307_steamyams,,1100,COOK (SOMETHING),煮（洋芋）,307
+308_stirfry,,2162,STIR FRY,炒,308
+309_shallowfry,,991,FRY,煎,309
+310_braise,,2067,STEAM (VERB),蒸,310
 311_soakseeds,,2069,SOAK (VERB),浸（种）,311
-312_boilwater,,792,BOIL (OF LIQUID),沸（水开）,312
+312_boilwater,,2492,BOIL (SOMETHING),沸（水开）,312
 313_cutwithknife,,2156,CUT (WITH KNIFE),切,313
 314_chop,,2149,CHOP (INTO PIECES),剁,314
 315_cutwithscissors,,2155,CUT (WITH SCISSORS),剪,315
@@ -328,7 +328,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Chinese_Gloss,Number
 327_pileup,,1576,PILE UP,堆（放）,327
 328_lightlamp,,737,LIGHT (IGNITE),点（灯）,328
 329_receive,,694,GET,收,329
-330_losecantfind,,1660,LOSE,遗失,330
+330_losecantfind,,3072,MISPLACE,遗失,330
 331_lookfor,,1468,LOOK FOR,寻找,331
 332_use,,2072,USE (VERB),用（使用）,332
 333_play,,1413,PLAY,玩耍,333
