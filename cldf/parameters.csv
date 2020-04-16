@@ -13,7 +13,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Chinese_Gloss,Number
 12_frost,,2034,FROST,霜,12
 13_fog,,249,FOG,雾,13
 14_water,,948,WATER,水,14
-15_river,,666,RIVER,河,15
+15_river,,3311,FLOWING BODY OF WATER,河,15
 16_lake,,624,LAKE,湖,16
 17_pond,,2035,POND,水塘,17
 18_wetfield,,140,PADDY FIELD,水田,18
@@ -294,7 +294,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Chinese_Gloss,Number
 293_plantseed,,1486,PLANT (SOMETHING),栽种,293
 294_cutreap,,1432,CUT,割,294
 295_chopfirewood,,3151,CUT (WITH AXE),砍（柴）,295
-296_pullupriceseedlings,,2066,PULL UP (RICE SEEDLINGS),拔（秧）,296
+296_pullupriceseedlings,,3548,PULL UP WEEDS,拔（秧）,296
 297_putouttopasture,,2031,PUT OUT TO PASTURE,放牧,297
 298_feedfattenup,,739,FEED,喂（催膘）,298
 299_leadcow,,43,LEAD (GUIDE),牵（牛）,299

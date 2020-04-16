@@ -1,4 +1,4 @@
-# Bai Dialect Survey
+# CLDF dataset derived from Allen's "Bai Dialect Survey" from 2007
 
 Cite the source dataset as
 
@@ -34,3 +34,12 @@ This dataset comprises 9 varieties of Bai, a Sino-Tibetan language whose origin 
 - **Tokens:** 21,931
 - **Segments:** 111 (0 BIPA errors, 0 CTLS sound class errors, 110 CLTS modified)
 - **Inventory size (avg):** 59.56
+
+# Contributors
+
+Name | GitHub user | Description | Role
+--- | --- | ---
+Johann-Mattis List | @LinguList | maintainer | Author
+Bryan Allen | | data collector | DataCollector
+
+
