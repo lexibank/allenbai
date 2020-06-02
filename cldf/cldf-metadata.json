@@ -8,6 +8,7 @@
     ],
     "dc:identifier": "http://www.sil.org/resources/publications/entry/9121",
     "dc:isVersionOf": null,
+    "dc:license": "CCBY-NC",
     "dc:related": null,
     "dc:source": "sources.bib",
     "dc:title": "CLDF dataset derived from Allen's \"Bai Dialect Survey\" from 2007",
@@ -17,7 +18,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/allenbai",
-            "dc:created": "v3.0-1-g386a5ab"
+            "dc:created": "v3.0-3-gef9bd29"
         },
         {
             "rdf:type": "prov:Entity",
@@ -29,7 +30,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Concepticon",
             "rdf:about": "https://github.com/concepticon/concepticon-data",
-            "dc:created": "v2.3.0-59-gc9d83e8"
+            "dc:created": "v2.3.0-107-g79157a1"
         },
         {
             "rdf:type": "prov:Entity",

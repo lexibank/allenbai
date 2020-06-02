@@ -4,6 +4,8 @@ Cite the source dataset as
 
 > Allen, Bryan (2007): Bai Dialect Survey. Dallas: SIL International.
 
+This dataset is licensed under a CCBY-NC license
+
 Available online at http://www.sil.org/resources/publications/entry/9121
 
 
