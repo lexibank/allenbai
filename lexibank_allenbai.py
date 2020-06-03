@@ -44,7 +44,7 @@ class Dataset(BaseDataset):
             idx = concept.id.split("-")[-1] + "_" + slug(concept.english)
             args.writer.add_concept(
                 ID=idx,
-                Name=concept.gloss,
+                Name=concept.english,
                 Chinese_Gloss=concept.attributes["chinese"],
                 Number=concept.number,
                 Concepticon_ID=concept.concepticon_id,

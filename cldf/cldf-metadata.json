@@ -18,13 +18,13 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/allenbai",
-            "dc:created": "v3.0-3-gef9bd29"
+            "dc:created": "v3.0-4-gd79051c"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Glottolog",
-            "rdf:about": "https://github.com/lingulist/glottolog-data",
-            "dc:created": "v4.0"
+            "rdf:about": "https://github.com/glottolog/glottolog",
+            "dc:created": "v4.2.1-7-g35d84acf81"
         },
         {
             "rdf:type": "prov:Entity",
@@ -118,14 +118,6 @@
                     {
                         "datatype": "boolean",
                         "name": "Loan"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "Graphemes"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "Profile"
                     }
                 ],
                 "foreignKeys": [
