@@ -123,7 +123,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Chinese_Gloss,Number
 122_thorn,thorn,124,THORN,刺,122
 123_body,body,1480,BODY,身体,123
 124_head,head,1256,HEAD,头,124
-125_hair,hair,1040,HAIR,头发,125
+125_hair,hair,2648,HAIR (HEAD),头发,125
 126_face,face,1560,FACE,脸,126
 127_eye,eye,1248,EYE,眼,127
 128_nose,nose,1221,NOSE,鼻子,128
@@ -171,7 +171,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Chinese_Gloss,Number
 170_market,market,633,MARKET,街子,170
 171_road,road,667,ROAD,路,171
 172_bridge,bridge,1011,BRIDGE,桥,172
-173_wall,wall,933,WALL (OF HOUSE),墙,173
+173_wall,wall,3830,WALL,墙,173
 174_pillarcolumn,"pillar,column",2045,COLUMN,柱子,174
 175_doorcattle,door (cattle),1567,DOOR,门,175
 176_stall,stall,851,STABLE,圈（牛圈）,176
