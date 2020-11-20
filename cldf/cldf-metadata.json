@@ -8,7 +8,7 @@
     ],
     "dc:identifier": "http://www.sil.org/resources/publications/entry/9121",
     "dc:isVersionOf": null,
-    "dc:license": "CCBY-NC",
+    "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:related": null,
     "dc:source": "sources.bib",
     "dc:title": "CLDF dataset derived from Allen's \"Bai Dialect Survey\" from 2007",
@@ -18,7 +18,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/allenbai",
-            "dc:created": "v3.0-7-g09182ec"
+            "dc:created": "v3.0-10-gacc0ead"
         },
         {
             "rdf:type": "prov:Entity",
@@ -30,19 +30,19 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Concepticon",
             "rdf:about": "https://github.com/concepticon/concepticon-data",
-            "dc:created": "v2.4.0-5-gaceeb4b"
+            "dc:created": "v2.4.0-16-g45b0f79"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "CLTS",
             "rdf:about": "https://github.com/cldf-clts/clts/",
-            "dc:created": "v1.4-34-ga2b5dc6"
+            "dc:created": "v1.4-54-g86bd403"
         }
     ],
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.8.2"
+            "dc:description": "3.6.12"
         },
         {
             "dc:title": "python-packages",
@@ -223,11 +223,11 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "SubGroup"
+                        "name": "DialectGroup"
                     },
                     {
                         "datatype": "string",
-                        "name": "DialectGroup"
+                        "name": "SubGroup"
                     }
                 ],
                 "primaryKey": [

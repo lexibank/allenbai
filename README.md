@@ -4,7 +4,7 @@ Cite the source dataset as
 
 > Allen, Bryan (2007): Bai Dialect Survey. Dallas: SIL International.
 
-This dataset is licensed under a CCBY-NC license
+This dataset is licensed under a CC-BY-4.0 license
 
 Available online at http://www.sil.org/resources/publications/entry/9121
 
@@ -41,7 +41,7 @@ This dataset comprises 9 varieties of Bai, a Sino-Tibetan language whose origin 
 
 Name | GitHub user | Description | Role
 --- | --- | --- | ---
-Johann-Mattis List | @LinguList | maintainer | Author
-Bryan Allen | | data collector | DataCollector
+Johann-Mattis List | @LinguList | maintainer | Other 
+Bryan Allen | | data collector | DataCollector, Author
 
 

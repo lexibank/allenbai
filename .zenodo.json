@@ -7,10 +7,14 @@
     ],
     "creators": [
         {
-            "name": "Johann-Mattis List"
+            "name": "Bryan Allen"
         }
     ],
     "contributors": [
+        {
+            "name": "Johann-Mattis List",
+            "type": "Other"
+        },
         {
             "name": "Bryan Allen",
             "type": "DataCollector"
@@ -22,5 +26,8 @@
         }
     ],
     "upload_type": "dataset",
-    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Allen, Bryan (2007): Bai Dialect Survey. Dallas: SIL International.</p>\n</blockquote>"
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Allen, Bryan (2007): Bai Dialect Survey. Dallas: SIL International.</p>\n</blockquote>",
+    "license": {
+        "id": "CC-BY-4.0"
+    }
 }

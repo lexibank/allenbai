@@ -12,6 +12,11 @@ from pyclts import CLTS
 import lingpy
 from clldutils.misc import slug
 
+from unicodedata import normalize
+
+def nfc(string):
+    return normalize('NFC', string)
+
 
 @attr.s
 class CustomConcept(Concept):
@@ -24,9 +29,8 @@ class CustomLanguage(Language):
     Latitude = attr.ib(default=None)
     Longitude = attr.ib(default=None)
     ChineseName = attr.ib(default=None)
-    SubGroup = attr.ib(default="Bai")
-    Family = attr.ib(default="Sino-Tibetan")
     DialectGroup = attr.ib(default=None)
+    SubGroup = attr.ib(default=None)
 
 
 class Dataset(BaseDataset):
@@ -87,7 +91,13 @@ class Dataset(BaseDataset):
 
             writer.cldf.add_columns(
                     'ParameterTable',
-                    {'name': 'BIPA', 'datatype': 'string'},
+                    {'name': 'CLTS_BIPA', 'datatype': 'string'},
+                    {'name': 'CLTS_Name', 'datatype': 'string'},
+                    {
+                        'name': 'Lexibank_BIPA',
+                        'datatype': 'string',
+                        'separator': ' '
+                    },
                     {'name': 'Prosody', 'datatype': 'string'},
                     )
             writer.cldf.add_columns(
@@ -96,7 +106,9 @@ class Dataset(BaseDataset):
                     {'name': 'Context', 'datatype': 'string'}
                     )
 
-            bipa = CLTS(args.clts.dir).bipa
+            clts = CLTS(args.clts.dir)
+            bipa = clts.transcriptionsystem_dict['bipa']
+            ab = clts.transcriptiondata_dict['allenbai']
             pids, visited = {}, set()
             for row in inventories:
                 pidx = '-'.join([
@@ -109,7 +121,9 @@ class Dataset(BaseDataset):
                         'ID': pidx,
                         'Name': row['Value'],
                         'Description': name,
-                        'BIPA': row['BIPA'],
+                        'CLTS_BIPA': ab.grapheme_map[nfc(row['Value'])],
+                        'CLTS_Name': bipa[ab.grapheme_map[nfc(row['Value'])]] or '',
+                        'Lexibank_BIPA': row['BIPA'],
                         'Prosody': row['Prosody'],
                         })
                     pids[row['Value']] = pidx
