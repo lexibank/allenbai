@@ -1,107 +1,107 @@
-Language_ID	Type	Value	BIPA	Prosody	Allophones	Context
+Language_ID	Type	Value	Lexibank	Prosody	Allophones	Context
 Yunlong	diphtong	ai	ai	n		(Chinese borrowings only)
 Lanping	diphtong	ao	ao	n		
 Luobenzhuo	diphtong	ao	ao	n		
 Yunlong	diphtong	ao	ao	n		
 Lanping	diphtong	ão	ão	n		
 Luobenzhuo	diphtong	ão	ão	n		
-Eryuan	diphtong	ia	i/j a	m n		
-Heqing	diphtong	ia	i/j a	m n		
-Jianchuan	diphtong	ia	i/j a	m n		
-Lanping	diphtong	ia	i/j a	m n		
-Qiliqiao	diphtong	ia	i/j a	m n		
-Xiangyun	diphtong	ia	i/j a	m n		
-Yunlong	diphtong	ia	i/j a	m n		
-Zhoucheng	diphtong	ia	i/j a	m n		
-Heqing	diphtong	iã	i/j ã	m n		
-Jianchuan	diphtong	iã	i/j ã	m n		
-Lanping	diphtong	iã	i/j ã	m n		
-Xiangyun	diphtong	iã	i/j ã	m n		
-Eryuan	diphtong	iɛ	i/j ɛ	m n		
-Heqing	diphtong	iɛ	i/j ɛ	m n		
-Jianchuan	diphtong	iɛ	i/j ɛ	m n		
-Lanping	diphtong	iɛ	i/j ɛ	m n		
-Luobenzhuo	diphtong	iɛ	i/j ɛ	m n		
-Qiliqiao	diphtong	iɛ	i/j ɛ	m n		
-Xiangyun	diphtong	iɛ	i/j ɛ	m n		
-Yunlong	diphtong	iɛ	i/j ɛ	m n		
-Zhoucheng	diphtong	iɛ	i/j ɛ	m n		
-Heqing	diphtong	iɛ̃	i/j ɛ̃	m n		
-Jianchuan	diphtong	iɛ̃	i/j ɛ̃	m n		
-Lanping	diphtong	iɛ̃	i/j ɛ̃	m n		
-Luobenzhuo	diphtong	iɛ̃	i/j ɛ̃	m n		
-Xiangyun	diphtong	iɛ̃	i/j ɛ̃	m n		
-Qiliqiao	diphtong	iɔ	i/j ɔ	m n		
-Xiangyun	diphtong	iɔ	i/j ɔ	m n		
-Yunlong	diphtong	iɔ	i/j ɔ	m n		
-Zhoucheng	diphtong	iɔ	i/j ɔ	m n		
-Xiangyun	diphtong	iɔ̃	i/j ɔ̃	m n		
-Jianchuan	diphtong	iɯ	i/j ɯ	m n		
-Lanping	diphtong	iɯ	i/j ɯ	m n		
-Jianchuan	diphtong	iɯ̃	i/j ɯ̃	m n		
-Lanping	diphtong	iɯ̃	i/j ɯ̃	m n		
-Heqing	diphtong	ou	ou	n		
-Jianchuan	diphtong	ou	ou	n		
-Xiangyun	diphtong	ou	ou	n		
-Heqing	diphtong	õu	õu	n		
-Jianchuan	diphtong	õu	õu	n		
-Xiangyun	diphtong	õu	õu	n		
-Heqing	diphtong	ɔu	ɔu	n		
-Heqing	diphtong	ɔ̃u	ɔ̃u	n		
-Eryuan	diphtong	ua	u/w a	m n		
-Heqing	diphtong	ua	u/w a	m n		
-Jianchuan	diphtong	ua	u/w a	m n		
-Lanping	diphtong	ua	u/w a	m n		
-Luobenzhuo	diphtong	ua	u/w a	m n		
-Qiliqiao	diphtong	ua	u/w a	m n		
-Xiangyun	diphtong	ua	u/w a	m n		
-Yunlong	diphtong	ua	u/w a	m n		
-Zhoucheng	diphtong	ua	u/w a	m n		
-Heqing	diphtong	uã	u/w ã	m n		
-Jianchuan	diphtong	uã	u/w ã	m n		
-Lanping	diphtong	uã	u/w ã	m n		
-Luobenzhuo	diphtong	uã	u/w ã	m n		
-Xiangyun	diphtong	uã	u/w ã	m n		
-Eryuan	diphtong	ue	u/w e	m n		
-Eryuan	diphtong	ue	u/w e	m n		
-Heqing	diphtong	ue	u/w e	m n		
-Jianchuan	diphtong	ue	u/w e	m n		
-Lanping	diphtong	ue	u/w e	m n		
-Luobenzhuo	diphtong	ue	u/w e	m n		
-Qiliqiao	diphtong	ue	u/w e	m n		
-Xiangyun	diphtong	ue	u/w e	m n		
-Yunlong	diphtong	ue	u/w e	m n		
-Zhoucheng	diphtong	ue	u/w e	m n		
-Heqing	diphtong	uẽ	u/w ẽ	m n		
-Jianchuan	diphtong	uẽ	u/w ẽ	m n		
-Lanping	diphtong	uẽ	u/w ẽ	m n		
-Luobenzhuo	diphtong	uẽ	u/w ẽ	m n		
-Xiangyun	diphtong	uẽ	u/w ẽ	m n		
-Eryuan	diphtong	uɛ	u/w ɛ	m n		
-Heqing	diphtong	uɛ	u/w ɛ	m n		
-Jianchuan	diphtong	uɛ	u/w ɛ	m n		
-Lanping	diphtong	uɛ	u/w ɛ	m n		
-Luobenzhuo	diphtong	uɛ	u/w ɛ	m n		
-Qiliqiao	diphtong	uɛ	u/w ɛ	m n		
-Xiangyun	diphtong	uɛ	u/w ɛ	m n		
-Yunlong	diphtong	uɛ	u/w ɛ	m n		
-Zhoucheng	diphtong	uɛ	u/w ɛ	m n		
-Jianchuan	diphtong	uɛ̃	u/w ɛ̃	m n		
-Lanping	diphtong	uɛ̃	u/w ɛ̃	m n		
-Luobenzhuo	diphtong	uɛ̃	u/w ɛ̃	m n		
-Xiangyun	diphtong	uɛ̃	u/w ɛ̃	m n		
-Heqing	diphtong	uɔ	u/w ɔ	m n		
-Lanping	diphtong	uɔ	u/w ɔ	m n		
-Luobenzhuo	diphtong	uɔ	u/w ɔ	m n		
-Qiliqiao	diphtong	uɔ	u/w ɔ	m n		
-Xiangyun	diphtong	uɔ	u/w ɔ	m n		
-Yunlong	diphtong	uɔ	u/w ɔ	m n		
-Zhoucheng	diphtong	uɔ	u/w ɔ	m n		
-Heqing	diphtong	uɔ̃	u/w ɔ̃	m n		
-Lanping	diphtong	uɔ̃	u/w ɔ̃	m n		
-Luobenzhuo	diphtong	uɔ̃	u/w ɔ̃	m n		
-Xiangyun	diphtong	uɔ̃	u/w ɔ̃	m n		
-Yunlong	diphtong	yɛ	y/ɥ ɛ	m n		
+Eryuan	diphtong	i a	i/j a	m n		
+Heqing	diphtong	i a	i/j a	m n		
+Jianchuan	diphtong	i a	i/j a	m n		
+Lanping	diphtong	i a	i/j a	m n		
+Qiliqiao	diphtong	i a	i/j a	m n		
+Xiangyun	diphtong	i a	i/j a	m n		
+Yunlong	diphtong	i a	i/j a	m n		
+Zhoucheng	diphtong	i a	i/j a	m n		
+Heqing	diphtong	i ã	i/j ã	m n		
+Jianchuan	diphtong	i ã	i/j ã	m n		
+Lanping	diphtong	i ã	i/j ã	m n		
+Xiangyun	diphtong	i ã	i/j ã	m n		
+Eryuan	diphtong	i ɛ	i/j ɛ	m n		
+Heqing	diphtong	i ɛ	i/j ɛ	m n		
+Jianchuan	diphtong	i ɛ	i/j ɛ	m n		
+Lanping	diphtong	i ɛ	i/j ɛ	m n		
+Luobenzhuo	diphtong	i ɛ	i/j ɛ	m n		
+Qiliqiao	diphtong	i ɛ	i/j ɛ	m n		
+Xiangyun	diphtong	i ɛ	i/j ɛ	m n		
+Yunlong	diphtong	i ɛ	i/j ɛ	m n		
+Zhoucheng	diphtong	i ɛ	i/j ɛ	m n		
+Heqing	diphtong	i ɛ̃	i/j ɛ̃	m n		
+Jianchuan	diphtong	i ɛ̃	i/j ɛ̃	m n		
+Lanping	diphtong	i ɛ̃	i/j ɛ̃	m n		
+Luobenzhuo	diphtong	i ɛ̃	i/j ɛ̃	m n		
+Xiangyun	diphtong	i ɛ̃	i/j ɛ̃	m n		
+Qiliqiao	diphtong	i ɔ	i/j ɔ	m n		
+Xiangyun	diphtong	i ɔ	i/j ɔ	m n		
+Yunlong	diphtong	i ɔ	i/j ɔ	m n		
+Zhoucheng	diphtong	i ɔ	i/j ɔ	m n		
+Xiangyun	diphtong	i ɔ̃	i/j ɔ̃	m n		
+Jianchuan	diphtong	i ɯ	i/j ɯ	m n		
+Lanping	diphtong	i ɯ	i/j ɯ	m n		
+Jianchuan	diphtong	i ɯ̃	i/j ɯ̃	m n		
+Lanping	diphtong	i ɯ̃	i/j ɯ̃	m n		
+Heqing	diphtong	o u	ou	n		
+Jianchuan	diphtong	o u	ou	n		
+Xiangyun	diphtong	o u	ou	n		
+Heqing	diphtong	õ u	õu	n		
+Jianchuan	diphtong	õ u	õu	n		
+Xiangyun	diphtong	õ u	õu	n		
+Heqing	diphtong	ɔ u	ɔu	n		
+Heqing	diphtong	ɔ̃ u	ɔ̃u	n		
+Eryuan	diphtong	u a	u/w a	m n		
+Heqing	diphtong	u a	u/w a	m n		
+Jianchuan	diphtong	u a	u/w a	m n		
+Lanping	diphtong	u a	u/w a	m n		
+Luobenzhuo	diphtong	u a	u/w a	m n		
+Qiliqiao	diphtong	u a	u/w a	m n		
+Xiangyun	diphtong	u a	u/w a	m n		
+Yunlong	diphtong	u a	u/w a	m n		
+Zhoucheng	diphtong	u a	u/w a	m n		
+Heqing	diphtong	u ã	u/w ã	m n		
+Jianchuan	diphtong	u ã	u/w ã	m n		
+Lanping	diphtong	u ã	u/w ã	m n		
+Luobenzhuo	diphtong	u ã	u/w ã	m n		
+Xiangyun	diphtong	u ã	u/w ã	m n		
+Eryuan	diphtong	u e	u/w e	m n		
+Eryuan	diphtong	u e	u/w e	m n		
+Heqing	diphtong	u e	u/w e	m n		
+Jianchuan	diphtong	u e	u/w e	m n		
+Lanping	diphtong	u e	u/w e	m n		
+Luobenzhuo	diphtong	u e	u/w e	m n		
+Qiliqiao	diphtong	u e	u/w e	m n		
+Xiangyun	diphtong	u e	u/w e	m n		
+Yunlong	diphtong	u e	u/w e	m n		
+Zhoucheng	diphtong	u e	u/w e	m n		
+Heqing	diphtong	u ẽ	u/w ẽ	m n		
+Jianchuan	diphtong	u ẽ	u/w ẽ	m n		
+Lanping	diphtong	u ẽ	u/w ẽ	m n		
+Luobenzhuo	diphtong	u ẽ	u/w ẽ	m n		
+Xiangyun	diphtong	u ẽ	u/w ẽ	m n		
+Eryuan	diphtong	u ɛ	u/w ɛ	m n		
+Heqing	diphtong	u ɛ	u/w ɛ	m n		
+Jianchuan	diphtong	u ɛ	u/w ɛ	m n		
+Lanping	diphtong	u ɛ	u/w ɛ	m n		
+Luobenzhuo	diphtong	u ɛ	u/w ɛ	m n		
+Qiliqiao	diphtong	u ɛ	u/w ɛ	m n		
+Xiangyun	diphtong	u ɛ	u/w ɛ	m n		
+Yunlong	diphtong	u ɛ	u/w ɛ	m n		
+Zhoucheng	diphtong	u ɛ	u/w ɛ	m n		
+Jianchuan	diphtong	u ɛ̃	u/w ɛ̃	m n		
+Lanping	diphtong	u ɛ̃	u/w ɛ̃	m n		
+Luobenzhuo	diphtong	u ɛ̃	u/w ɛ̃	m n		
+Xiangyun	diphtong	u ɛ̃	u/w ɛ̃	m n		
+Heqing	diphtong	u ɔ	u/w ɔ	m n		
+Lanping	diphtong	u ɔ	u/w ɔ	m n		
+Luobenzhuo	diphtong	u ɔ	u/w ɔ	m n		
+Qiliqiao	diphtong	u ɔ	u/w ɔ	m n		
+Xiangyun	diphtong	u ɔ	u/w ɔ	m n		
+Yunlong	diphtong	u ɔ	u/w ɔ	m n		
+Zhoucheng	diphtong	u ɔ	u/w ɔ	m n		
+Heqing	diphtong	u ɔ̃	u/w ɔ̃	m n		
+Lanping	diphtong	u ɔ̃	u/w ɔ̃	m n		
+Luobenzhuo	diphtong	u ɔ̃	u/w ɔ̃	m n		
+Xiangyun	diphtong	u ɔ̃	u/w ɔ̃	m n		
+Yunlong	diphtong	y ɛ	y/ɥ ɛ	m n		
 Luobenzhuo	initial	b	b	i		
 Luobenzhuo	initial	c	c	i		
 Luobenzhuo	initial	cʰ	cʰ	i		

@@ -18,7 +18,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/allenbai",
-            "dc:created": "v3.0-10-gacc0ead"
+            "dc:created": "v3.0-11-g0999aa1"
         },
         {
             "rdf:type": "prov:Entity",
@@ -36,7 +36,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "CLTS",
             "rdf:about": "https://github.com/cldf-clts/clts/",
-            "dc:created": "v1.4-54-g86bd403"
+            "dc:created": "v1.4-72-gb2466e2"
         }
     ],
     "prov:wasGeneratedBy": [

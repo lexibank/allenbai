@@ -12,11 +12,6 @@ from pyclts import CLTS
 import lingpy
 from clldutils.misc import slug
 
-from unicodedata import normalize
-
-def nfc(string):
-    return normalize('NFC', string)
-
 
 @attr.s
 class CustomConcept(Concept):
@@ -87,7 +82,7 @@ class Dataset(BaseDataset):
             writer.cldf.add_component(language_table)
             writer.objects['LanguageTable'] = self.languages
             inventories = self.raw_dir.read_csv(
-                'inventories.tsv', delimiter='\t', dicts=True)
+                'inventories.tsv', normalize='NFC', delimiter='\t', dicts=True)
 
             writer.cldf.add_columns(
                     'ParameterTable',
@@ -96,46 +91,51 @@ class Dataset(BaseDataset):
                     {
                         'name': 'Lexibank_BIPA',
                         'datatype': 'string',
-                        'separator': ' '
                     },
                     {'name': 'Prosody', 'datatype': 'string'},
                     )
             writer.cldf.add_columns(
                     'ValueTable',
-                    {'name': 'Allophone', 'datatype': 'string'},
                     {'name': 'Context', 'datatype': 'string'}
                     )
 
             clts = CLTS(args.clts.dir)
             bipa = clts.transcriptionsystem_dict['bipa']
-            ab = clts.transcriptiondata_dict['allenbai']
+            td = clts.transcriptiondata_dict['allenbai']
             pids, visited = {}, set()
-            for row in inventories:
-                pidx = '-'.join([
-                    str(hex(ord(s)))[2:].rjust(4, '0') for s in row['Value']])
-                pidx += '_'+'-'.join(row['Prosody'].split())
-                name = ' - '.join([
-                    bipa[s].name for s in row['BIPA'].split(' ')])
-                if not row['Value'] in pids:
-                    writer.objects['ParameterTable'].append({
-                        'ID': pidx,
-                        'Name': row['Value'],
-                        'Description': name,
-                        'CLTS_BIPA': ab.grapheme_map[nfc(row['Value'])],
-                        'CLTS_Name': bipa[ab.grapheme_map[nfc(row['Value'])]] or '',
-                        'Lexibank_BIPA': row['BIPA'],
-                        'Prosody': row['Prosody'],
-                        })
-                    pids[row['Value']] = pidx
-                if row['Language_ID']+'-'+pidx not in visited:
-                    writer.objects['ValueTable'].append({
-                        'ID': row['Language_ID']+'_'+pidx,
-                        'Language_ID': row['Language_ID'],
-                        'Parameter_ID': pidx,
-                        'Value': row['Value'],
-                        'AllophoneFrom': row['Language_ID']+'_'+pids[row['Value']],
-                        'Context': row['Context'],
-                        'Source': ['Allen2007'],
-                        })
-                    visited.add(row['Language_ID']+'-'+pidx)
+            for row in progressbar(inventories, desc='inventories'):
+                for s1, s2, p in zip(
+                        row['Value'].split(),
+                        row['Lexibank'].split(),
+                        row['Prosody'].split()
+                        ):
 
+                    pidx = '-'.join([
+                        str(hex(ord(s)))[2:].rjust(4, '0') for s in
+                        row['Value']])+'_'+p
+                    if not s1 in td.grapheme_map:
+                            args.log.warn('missing sound {0} / {1}'.format(
+                                s1, ' '.join([str(hex(ord(x))) for x in s1])))
+                    else:
+                        sound = bipa[td.grapheme_map[s1]]
+                        sound_name = sound.name if sound.type not in [
+                            'unknown', 'marker'] else ''
+                        if not pidx in visited:
+                            visited.add(pidx)
+                            writer.objects['ParameterTable'].append({
+                                'ID': pidx,
+                                'Name': s1,
+                                'Description': sound_name,
+                                'CLTS_BIPA': td.grapheme_map[s1],
+                                'CLTS_Name': sound_name,
+                                'Lexibank_BIPA': s2,
+                                'Prosody': p,
+                                })
+                        writer.objects['ValueTable'].append({
+                            'ID': row['Language_ID']+'_'+pidx,
+                            'Language_ID': row['Language_ID'],
+                            'Parameter_ID': pidx,
+                            'Value': s1,
+                            'Context': p,
+                            'Source': ['Allen2007'],
+                            })

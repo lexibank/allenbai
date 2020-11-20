@@ -2,7 +2,7 @@ appdirs==1.4.4
 bs4==0.0.1
 certifi==2020.11.8
 chardet==3.0.4
--e git+https://github.com/cldf/cldfbench/@2c79d9b0c5ee416711913cf0cab174ef496d8a80#egg=cldfbench
+-e git+https://github.com/cldf/cldfbench/@abccf1d5eba75c98f8394c2f65f25ca320f31044#egg=cldfbench
 -e git+https://github.com/cldf/cldfcatalog@f26c9ac38c1ab111a55682ae83f4ac1cb03333c3#egg=cldfcatalog
 clldutils==3.5.4
 colorlog==4.6.2
@@ -15,9 +15,9 @@ isodate==0.6.0
 jdcal==1.4.1
 -e git+https://github.com/lexibank/aaleykusunda.git@9e6031c71fc0ee0edbd6744a13763d3a8db504ac#egg=lexibank_aaleykusunda
 -e git+https://github.com/lexibank/abrahammonpa@3020674bff5b388305b553b404df90b12fb1387d#egg=lexibank_abrahammonpa
--e git+https://github.com/lexibank/allenbai.git@acc0eadcf2e5df790b62ffd876af5362fceca35b#egg=lexibank_allenbai
+-e git+https://github.com/lexibank/allenbai.git@0999aa16c3121c755b963e257f88dd781bd28caf#egg=lexibank_allenbai
 -e git+https://github.com/lexibank/bdpa.git@f3543076b2c35739af4120c97f4e632298ea3b98#egg=lexibank_bdpa
--e git+https://github.com/lexibank/beidasinitic.git@870d426827b88d1993033f97afe97dc14bdfbc23#egg=lexibank_beidasinitic
+-e git+https://github.com/lexibank/beidasinitic.git@ddb14e36c3a5ae999bb353eb77af5ca0203385db#egg=lexibank_beidasinitic
 -e git+https://github.com/lexibank/birchallchapacuran.git@71c228864e2ee77432a2c9822808523f75a0f47f#egg=lexibank_birchallchapacuran
 -e git+https://github.com/sequencecomparison/blustaustronesian@0ba938a64cf87845eefbd1336065d0298ef21f9c#egg=lexibank_blustaustronesian
 -e git+https://github.com/lingpy/bodtkhobwa/@4759c9849eb8964a645ec723babf28d26dde5f2d#egg=lexibank_bodtkhobwa
@@ -87,7 +87,7 @@ purl==1.5
 py==1.9.0
 pybtex==0.23.0
 pycldf==1.17.0
--e git+https://github.com/cldf-clts/pyclts@a934e77d236157f94587ae6b64a88b94a5d0d1dd#egg=pyclts
+-e git+https://github.com/cldf-clts/pyclts@3fce07619e570b2cb3ef47ee2916da1cd1f48fab#egg=pyclts
 -e git+https://github.com/concepticon/pyconcepticon.git@86cf8b33182298c709736360e65caf29570d940e#egg=pyconcepticon
 pycountry==20.7.3
 -e git+https://github.com/clld/pyglottolog.git@c17c4d48c35c0666d58eac89ba5ea806f62a14ff#egg=pyglottolog
