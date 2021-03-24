@@ -11,6 +11,7 @@ from pyclts import CLTS
 
 import lingpy
 from clldutils.misc import slug
+from unicodedata import normalize
 
 
 @attr.s
@@ -113,9 +114,10 @@ class Dataset(BaseDataset):
                     pidx = '-'.join([
                         str(hex(ord(s)))[2:].rjust(4, '0') for s in
                         row['Value']])+'_'+p
+                    s1 = normalize("NFD", s1)
                     if not s1 in td.grapheme_map:
-                            args.log.warn('missing sound {0} / {1}'.format(
-                                s1, ' '.join([str(hex(ord(x))) for x in s1])))
+                        args.log.warn('missing sound {0} / {1}'.format(
+                            s1, ' '.join([str(hex(ord(x))) for x in s1])))
                     else:
                         sound = bipa[td.grapheme_map[s1]]
                         sound_name = sound.name if sound.type not in [

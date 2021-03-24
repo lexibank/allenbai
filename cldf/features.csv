@@ -1,9 +1,11 @@
 ID,Name,Description,CLTS_BIPA,CLTS_Name,Lexibank_BIPA,Prosody
 0061-0069_n,ai,from unrounded open front to unrounded close front diphthong,ai,from unrounded open front to unrounded close front diphthong,ai,n
 0061-006f_n,ao,from unrounded open front to rounded close-mid back diphthong,ao,from unrounded open front to rounded close-mid back diphthong,ao,n
+00e3-006f_n,ão,from nasalized unrounded open front to rounded close-mid back diphthong,ão,from nasalized unrounded open front to rounded close-mid back diphthong,ão,n
 0069-0020-0061_m,i,unrounded close front vowel,i,unrounded close front vowel,i/j,m
 0069-0020-0061_n,a,unrounded open front vowel,a,unrounded open front vowel,a,n
 0069-0020-00e3_m,i,unrounded close front vowel,i,unrounded close front vowel,i/j,m
+0069-0020-00e3_n,ã,nasalized unrounded open front vowel,ã,nasalized unrounded open front vowel,ã,n
 0069-0020-025b_m,i,unrounded close front vowel,i,unrounded close front vowel,i/j,m
 0069-0020-025b_n,ɛ,unrounded open-mid front vowel,ɛ,unrounded open-mid front vowel,ɛ,n
 0069-0020-025b-0303_m,i,unrounded close front vowel,i,unrounded close front vowel,i/j,m
@@ -17,14 +19,17 @@ ID,Name,Description,CLTS_BIPA,CLTS_Name,Lexibank_BIPA,Prosody
 0069-0020-026f-0303_m,i,unrounded close front vowel,i,unrounded close front vowel,i/j,m
 0069-0020-026f-0303_n,ɯ̃,nasalized unrounded close back vowel,ɯ̃,nasalized unrounded close back vowel,ɯ̃,n
 006f-0020-0075_n,o,rounded close-mid back vowel,o,rounded close-mid back vowel,ou,n
+00f5-0020-0075_n,õ,nasalized rounded close-mid back vowel,õ,nasalized rounded close-mid back vowel,õu,n
 0254-0020-0075_n,ɔ,rounded open-mid back vowel,ɔ,rounded open-mid back vowel,ɔu,n
 0254-0303-0020-0075_n,ɔ̃,nasalized rounded open-mid back vowel,ɔ̃,nasalized rounded open-mid back vowel,ɔ̃u,n
 0075-0020-0061_m,u,rounded close back vowel,u,rounded close back vowel,u/w,m
 0075-0020-0061_n,a,unrounded open front vowel,a,unrounded open front vowel,a,n
 0075-0020-00e3_m,u,rounded close back vowel,u,rounded close back vowel,u/w,m
+0075-0020-00e3_n,ã,nasalized unrounded open front vowel,ã,nasalized unrounded open front vowel,ã,n
 0075-0020-0065_m,u,rounded close back vowel,u,rounded close back vowel,u/w,m
 0075-0020-0065_n,e,unrounded close-mid front vowel,e,unrounded close-mid front vowel,e,n
 0075-0020-1ebd_m,u,rounded close back vowel,u,rounded close back vowel,u/w,m
+0075-0020-1ebd_n,ẽ,nasalized unrounded close-mid front vowel,ẽ,nasalized unrounded close-mid front vowel,ẽ,n
 0075-0020-025b_m,u,rounded close back vowel,u,rounded close back vowel,u/w,m
 0075-0020-025b_n,ɛ,unrounded open-mid front vowel,ɛ,unrounded open-mid front vowel,ɛ,n
 0075-0020-025b-0303_m,u,rounded close back vowel,u,rounded close back vowel,u/w,m
@@ -102,20 +107,27 @@ ID,Name,Description,CLTS_BIPA,CLTS_Name,Lexibank_BIPA,Prosody
 0035-0035_t,55,flat from-high to-high tone,⁵⁵,flat from-high to-high tone,⁵⁵,t
 0036-0036_t,66,,<NA>,,⁶⁶/⁵⁵,t
 0061_n,a,unrounded open front vowel,a,unrounded open front vowel,a,n
+00e3_n,ã,nasalized unrounded open front vowel,ã,nasalized unrounded open front vowel,ã,n
 00e6_n,æ,unrounded near-open front vowel,æ,unrounded near-open front vowel,æ,n
 00e6-0303_n,æ̃,nasalized unrounded near-open front vowel,æ̃,nasalized unrounded near-open front vowel,æ̃,n
 0065_n,e,unrounded close-mid front vowel,e,unrounded close-mid front vowel,e,n
+1ebd_n,ẽ,nasalized unrounded close-mid front vowel,ẽ,nasalized unrounded close-mid front vowel,ẽ,n
 025b_n,ɛ,unrounded open-mid front vowel,ɛ,unrounded open-mid front vowel,ɛ,n
 025b-0303_n,ɛ̃,nasalized unrounded open-mid front vowel,ɛ̃,nasalized unrounded open-mid front vowel,ɛ̃,n
 0069_n,i,unrounded close front vowel,i,unrounded close front vowel,i,n
 027f_n,ɿ,unrounded close with-friction back vowel,ɿ,unrounded close with-friction back vowel,ɿ,n
+0129_n,ĩ,nasalized unrounded close front vowel,ĩ,nasalized unrounded close front vowel,ĩ,n
 006f_n,o,rounded close-mid back vowel,o,rounded close-mid back vowel,o,n
+00f5_n,õ,nasalized rounded close-mid back vowel,õ,nasalized rounded close-mid back vowel,õ,n
 0254_n,ɔ,rounded open-mid back vowel,ɔ,rounded open-mid back vowel,ɔ,n
 0254-0303_n,ɔ̃,nasalized rounded open-mid back vowel,ɔ̃,nasalized rounded open-mid back vowel,ɔ̃,n
 0075_n,u,rounded close back vowel,u,rounded close back vowel,u,n
+0169_n,ũ,nasalized rounded close back vowel,ũ,nasalized rounded close back vowel,ũ,n
 026f_n,ɯ,unrounded close back vowel,ɯ,unrounded close back vowel,ɯ,n
 026f-0303_n,ɯ̃,nasalized unrounded close back vowel,ɯ̃,nasalized unrounded close back vowel,ɯ̃,n
 028a_n,ʊ,rounded near-close near-back vowel,ʊ,rounded near-close near-back vowel,ʊ,n
 028a-0303_n,ʊ̃,nasalized rounded near-close near-back vowel,ʊ̃,nasalized rounded near-close near-back vowel,ʊ̃,n
 0076-0329_n,v̩,syllabic voiced labio-dental fricative consonant,v̩,syllabic voiced labio-dental fricative consonant,ʮ,n
+1e7d-0329_n,ṽ̩,syllabic nasalized voiced labio-dental fricative consonant,ṽ̩,syllabic nasalized voiced labio-dental fricative consonant,ʮ̃,n
 0079_n,y,rounded close front vowel,y,rounded close front vowel,y,n
+1ef9_n,ỹ,nasalized rounded close front vowel,ỹ,nasalized rounded close front vowel,ỹ,n

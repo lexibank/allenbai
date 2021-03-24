@@ -23,7 +23,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/allenbai",
-            "dc:created": "v3.0-12-gc2f5211"
+            "dc:created": "v3.0-13-gdfa9f2d"
         },
         {
             "rdf:type": "prov:Entity",
@@ -62,7 +62,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
-            "dc:extent": 601,
+            "dc:extent": 653,
             "tableSchema": {
                 "columns": [
                     {
@@ -152,7 +152,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 120,
+            "dc:extent": 132,
             "tableSchema": {
                 "columns": [
                     {
