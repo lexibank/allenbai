@@ -100,7 +100,7 @@ class Dataset(pylexibank.Dataset):
             clts = CLTS(args.clts.dir)
             bipa = clts.transcriptionsystem_dict["bipa"]
             td = clts.transcriptiondata_dict["allenbai"]
-            pids, visited = {}, set()
+            pids, visited = set(), set()
             for row in pylexibank.progressbar(inventories, desc="inventories"):
                 for s1, s2, p in zip(
                     row["Value"].split(), row["Lexibank"].split(), row["Prosody"].split()
@@ -134,13 +134,19 @@ class Dataset(pylexibank.Dataset):
                                     "Prosody": p,
                                 }
                             )
-                        writer.objects["ValueTable"].append(
-                            {
-                                "ID": row["Language_ID"] + "_" + pidx,
-                                "Language_ID": row["Language_ID"],
-                                "Parameter_ID": pidx,
-                                "Value": s1,
-                                "Context": p,
-                                "Source": ["Allen2007"],
-                            }
-                        )
+
+                        if row["Language_ID"] + "_" + pidx in pids:
+                            continue
+                        else:
+                            writer.objects["ValueTable"].append(
+                                {
+                                    "ID": row["Language_ID"] + "_" + pidx,
+                                    "Language_ID": row["Language_ID"],
+                                    "Parameter_ID": pidx,
+                                    "Value": s1,
+                                    "Context": p,
+                                    "Source": ["Allen2007"],
+                                }
+                            )
+
+                        pids.add(row["Language_ID"] + "_" + pidx)
