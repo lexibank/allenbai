@@ -35,21 +35,21 @@ This dataset comprises 9 varieties of Bai, a Sino-Tibetan language whose origin 
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-- **Varieties:** 9
-- **Concepts:** 499
+- **Varieties:** 9 (linked to 9 different Glottocodes)
+- **Concepts:** 499 (linked to 499 different Concepticon concept sets)
 - **Lexemes:** 4,546
 - **Sources:** 1
 - **Synonymy:** 1.01
 - **Invalid lexemes:** 0
 - **Tokens:** 21,931
-- **Segments:** 111 (0 BIPA errors, 0 CTLS sound class errors, 110 CLTS modified)
+- **Segments:** 111 (0 BIPA errors, 0 CLTS sound class errors, 110 CLTS modified)
 - **Inventory size (avg):** 59.56
 
 # Contributors
 
 Name | GitHub user | Description | Role
 --- | --- | --- | ---
-Johann-Mattis List | @LinguList | maintainer | Other 
+Johann-Mattis List | @LinguList | maintainer | Editor
 Bryan Allen | | data collector | DataCollector, Author
 
 
