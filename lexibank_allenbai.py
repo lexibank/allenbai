@@ -29,6 +29,7 @@ class Dataset(pylexibank.Dataset):
     id = "allenbai"
     concept_class = CustomConcept
     language_class = CustomLanguage
+    writer_options = dict(keep_languages=False, keep_parameters=False)
 
     def cmd_download(self, **kw):
         self.raw_dir.write("sources.bib", pylexibank.getEvoBibAsBibtex("Allen2007", **kw))
