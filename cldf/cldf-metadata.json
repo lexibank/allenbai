@@ -17,25 +17,25 @@
         {
             "rdf:about": "https://github.com/lexibank/allenbai",
             "rdf:type": "prov:Entity",
-            "dc:created": "v3.0-19-gd0d6f14",
+            "dc:created": "v4.0",
             "dc:title": "Repository"
         },
         {
-            "rdf:about": "https://github.com/glottolog/glottolog",
+            "rdf:about": "git@github.com:glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.4",
+            "dc:created": "v5.2.1",
             "dc:title": "Glottolog"
         },
         {
-            "rdf:about": "https://github.com/concepticon/concepticon-data",
+            "rdf:about": "git@github.com:concepticon/concepticon-data",
             "rdf:type": "prov:Entity",
-            "dc:created": "v2.5.0",
+            "dc:created": "v3.4.0",
             "dc:title": "Concepticon"
         },
         {
-            "rdf:about": "https://github.com/cldf-clts/clts",
+            "rdf:about": "https://github.com/cldf-clts/clts/",
             "rdf:type": "prov:Entity",
-            "dc:created": "v2.1.0",
+            "dc:created": "v2.3.0",
             "dc:title": "CLTS"
         }
     ],
@@ -46,7 +46,7 @@
         },
         {
             "dc:title": "python",
-            "dc:description": "3.8.10"
+            "dc:description": "3.14.4"
         },
         {
             "dc:title": "python-packages",
@@ -55,9 +55,6 @@
     ],
     "rdf:ID": "allenbai",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
-    "dialect": {
-        "commentPrefix": null
-    },
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
@@ -181,7 +178,7 @@
                     {
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#glottocode",
-                        "valueUrl": "http://glottolog.org/resource/languoid/id/{glottolog_id}",
+                        "valueUrl": "http://glottolog.org/resource/languoid/id/{Glottocode}",
                         "name": "Glottocode"
                     },
                     {
@@ -238,7 +235,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 499,
+            "dc:extent": 500,
             "tableSchema": {
                 "columns": [
                     {
@@ -254,7 +251,7 @@
                     {
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#concepticonReference",
-                        "valueUrl": "http://concepticon.clld.org/parameters/{concepticon_id}",
+                        "valueUrl": "http://concepticon.clld.org/parameters/{Concepticon_ID}",
                         "name": "Concepticon_ID"
                     },
                     {
@@ -275,6 +272,66 @@
                 ]
             },
             "url": "parameters.csv"
+        },
+        {
+            "dc:extent": 501,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "required": true,
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
+                        "required": true,
+                        "name": "Language_ID"
+                    },
+                    {
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
+                        "required": true,
+                        "name": "Name"
+                    },
+                    {
+                        "datatype": "string",
+                        "required": true,
+                        "name": "Transcription"
+                    },
+                    {
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#cltsReference",
+                        "valueUrl": "http://clts.clld.org/parameters/{CLTS_ID}",
+                        "name": "CLTS_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": " ",
+                        "name": "Form_IDS"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "Forms"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "Language_ID"
+                        ],
+                        "reference": {
+                            "resource": "languages.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "SoundTable"
         }
     ]
 }

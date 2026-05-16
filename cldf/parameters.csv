@@ -413,6 +413,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Chinese_Gloss,Number
 412_full,full,1429,FULL,满,412
 413_fatpig,fat (pig),1279,FAT (OBESE),肥(猪),413
 414_clean,clean,704,CLEAN,干净,414
+415_old,old,2112,OLD (AGED),老,415
 416_good,good,1035,GOOD,好,416
 417_bad,bad,1292,BAD,坏,417
 418_slow,slow,701,SLOW,慢,418
@@ -493,7 +494,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Chinese_Gloss,Number
 493_justnow,just now,84,JUST,刚才,493
 494_first,first,728,FIRST,先,494
 495_afterwards,afterwards,2093,AFTERWARDS,后,495
-496_slowly,slowly,2165,SLOWLY,慢慢,496
+496_slowly,slowly,,,慢慢,496
 497_quickly,quickly,1631,FAST,快快,497
 498_very,very,1311,VERY,很,498
 499_all,all,98,ALL,都,499

@@ -9,6 +9,7 @@ from pyclts import CLTS
 import lingpy
 from clldutils.misc import slug
 from unicodedata import normalize
+import collections
 
 
 @attr.s
@@ -62,15 +63,16 @@ class Dataset(pylexibank.Dataset):
                 )
                 concept_lookup[concept.english] = idx
             language_lookup = writer.add_languages(lookup_factory="Name")
-
+            
+            lexemes = []
             for k in pylexibank.progressbar(wl, desc="wl-to-cldf"):
                 if wl[k, "value"]:
-                    writer.add_lexemes(
+                    lexemes.extend(writer.add_lexemes(
                         Language_ID=language_lookup[wl[k, "doculect"]],
                         Parameter_ID=concept_lookup[wl[k, "concept"]],
                         Value=wl[k, "value"],
                         Source="Allen2007",
-                    )
+                    ))
             language_table = writer.cldf["LanguageTable"]
 
             # Remove column for ISO639P3code since there are no ISO codes.
@@ -79,6 +81,48 @@ class Dataset(pylexibank.Dataset):
                 for col in writer.cldf["LanguageTable"].tableSchema.columns
                 if col.name != "ISO639P3code"
             ]
+
+            writer.cldf.add_table(
+                    "SoundTable",
+                    {"name": "ID", "datatype": "string", "required": True,
+                     "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id"},
+                    {"name": "Language_ID", "datatype": "string", "required":
+                     True, 
+                     "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference"},
+                    {"name": "Name", "required": True, 
+                     "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name"},
+                    {"name": "Transcription", "datatype": "string", 
+                     "required": True},
+                    {"name": "CLTS_ID", 
+                     "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#cltsReference",
+                     "valueUrl": "http://clts.clld.org/parameters/{CLTS_ID}",
+                     },
+                    {"name": "Form_IDS", "datatype": "string", "separator": " "},
+                    {"name": "Forms", "datatype": "integer"},
+                    primaryKey="ID",
+                    )
+
+            clts = CLTS(args.clts.dir)
+            bipa = clts.transcriptionsystem_dict["bipa"]
+            
+            sounds = collections.defaultdict(list)
+            for lexeme in lexemes:
+                for segment in lexeme['Segments']:
+                    if segment != "+":
+                        sound = bipa[segment]
+                        sounds[sound.name, str(sound), lexeme["Language_ID"]] += [lexeme["ID"]]
+            for (name, transcription, language), forms in sounds.items():
+                writer.objects["SoundTable"].append(
+                        {
+                            "ID": language + "-" + name.replace(" ", "_"),
+                            "Language_ID": language,
+                            "Form_IDS": forms,
+                            "Forms": len(forms),
+                            "Name": name,
+                            "Transcription": transcription,
+                            "CLTS_ID": name.replace(" ", "_")
+                            })
+
 
         with self.cldf_writer(args, cldf_spec="structure", clean=False) as writer:
             # We share the language table across both CLDF datasets:
